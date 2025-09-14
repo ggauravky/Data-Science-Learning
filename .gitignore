@@ -35,3 +35,5 @@ venv/
 *.log
 logs/
 outputs/
+
+004 NumPy/basics_numpy.ipynb
