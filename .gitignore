@@ -39,3 +39,7 @@ outputs/
 004 NumPy/basics_numpy.ipynb
 .virtual_documents/
 anaconda_projects/db/
+.anaconda_project/
+anaconda-project*.yml
+.anaconda_project/
+anaconda-project*.yml
