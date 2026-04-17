@@ -1,0 +1,22 @@
+Measuring Errors (RMSE & MAE)
+After training our regression model, we need to evaluate how good its predictions are. Two common metrics used for this are MAE and RMSE.
+
+1. Mean Absolute Error (MAE)
+MAE stands for Mean Absolute Error. It calculates the average of the absolute differences between the predicted and actual values.
+
+Formula: MAE = (1/n) × sum of |actual - predicted|
+
+It treats all errors equally, no matter their size.
+MAE is based on the Manhattan norm (also called L1 norm), which measures distance by summing absolute values.
+2. Root Mean Squared Error (RMSE)
+RMSE stands for Root Mean Squared Error. It calculates the square root of the average of squared differences between predicted and actual values.
+
+Formula: RMSE = sqrt((1/n) × sum of (actual - predicted)²)
+
+RMSE gives more weight to larger errors because it squares them.
+RMSE is based on the Euclidean norm (also called L2 norm), which measures straight-line distance.
+Summary
+Use MAE when all errors should be treated equally.
+
+Use RMSE when larger errors should be penalized more.
+
