@@ -108,14 +108,14 @@ $RECYCLE.BIN/
 # Data Science Specific
 # ================================
 # Raw and processed data files (uncomment lines as needed)
-*.csv
-*.tsv
-*.xlsx
-*.xls
-# *.json  # Keep json for configs but ignore large data files
-*.xml
-*.dat
-*.data
+# *.csv
+# *.tsv
+# *.xlsx
+# *.xls
+# # *.json  # Keep json for configs but ignore large data files
+# *.xml
+# *.dat
+# *.data
 
 # Large data files
 *.h5
@@ -193,15 +193,15 @@ reports/
 **/logs/
 
 # Plots and figures (generated outputs)
-figures/
-plots/
-**/figures/
-**/plots/
-*.png
-*.jpg
-*.jpeg
-*.svg
-*.pdf
+# figures/
+# plots/
+# **/figures/
+# **/plots/
+# *.png
+# *.jpg
+# *.jpeg
+# *.svg
+# *.pdf
 
 # Temporary files
 *.tmp
