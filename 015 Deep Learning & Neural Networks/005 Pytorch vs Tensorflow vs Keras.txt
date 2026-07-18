@@ -1,0 +1,62 @@
+Pytorch vs Tensorflow vs Keras
+Deep learning has transformed industries—from self-driving cars to language models like ChatGPT. But behind the scenes, there are powerful libraries that make all of this possible: TensorFlow, Keras, and PyTorch. Today, we’ll explore:
+
+Why and how each library was created
+How they differ in philosophy and design
+What a "backend" means in Keras
+Which one might be right for you
+A Brief History
+1. TensorFlow
+Released: 2015 by Google Brain
+Language: Python (but has C++ core)
+Goal: Provide an efficient, production-ready, and scalable library for deep learning.
+TensorFlow is a computational graph framework, meaning it represents computations as nodes in a graph.
+Open sourced in 2015, TensorFlow quickly became the go-to library for many companies and researchers.
+Fun Fact: TensorFlow was a spiritual successor to Google's earlier tool called DistBelief.
+
+2. Keras
+Released: 2015 by François Chollet
+Goal: Make deep learning simple, intuitive, and user-friendly.
+Keras was originally just a high-level wrapper over Theano and TensorFlow, making it easier to build models with fewer lines of code.
+Keras introduced the idea of writing deep learning models like stacking Lego blocks.
+Keras was not a full deep learning engine—it needed a "backend" to actually do the math
+
+3. PyTorch
+Released: 2016 by Facebook AI Research (FAIR)
+Language: Python-first, with a strong integration to NumPy
+Goal: Make deep learning flexible, dynamic, and easier for research.
+PyTorch uses dynamic computation graphs, meaning the graph is built on the fly, allowing for more intuitive debugging and flexibility.
+PyTorch gained massive popularity in academia and research because of its Pythonic nature and simplicity.
+
+In a nut shell...
+Feature	TensorFlow	Keras	PyTorch
+Developed By	Google	François Chollet (Google)	Facebook (Meta)
+Level	Low-level & high-level	High-level only	Low-level (with some high-level APIs)
+Computation Graph	Static (TensorFlow 1.x), Hybrid (2.x)	Depends on backend	Dynamic
+Ease of Use	Medium (Better in 2.x)	Very high	High
+Debugging	Harder (in 1.x), Easier in 2.x	Easy	Very easy (Pythonic)
+Production-ready	Yes	Yes (via TensorFlow backend)	Gaining ground
+Research usage	Moderate	Moderate	Very high
+What Is a "Backend" in Keras?
+Keras itself doesn't perform computations like matrix multiplications or gradient descent. It’s more like a user interface or a frontend. It delegates the heavy lifting to a backend engine.
+
+Supported Backends Over Time:
+Theano (now discontinued)
+TensorFlow (default backend now)
+CNTK (Microsoft, also discontinued)
+PlaidML (experimental support)
+You can think of Keras as the steering wheel, while TensorFlow or Theano was the engine under the hood.
+
+In TensorFlow 2.0 and later, Keras is fully integrated as tf.keras, eliminating the need to manage separate backends.
+
+TensorFlow vs PyTorch: The Real Battle
+Area	TensorFlow	PyTorch
+Ease of Deployment	TensorFlow Serving, TFX, TensorFlow Lite	TorchServe, ONNX, some catching up
+Mobile Support	Excellent (TF Lite, TF.js)	Improving but limited
+Dynamic Graphs	TF 1.x: No, TF 2.x: Yes (via Autograph)	Native support
+Community	Large, especially in production	Massive in academia
+Performance	Highly optimized	Also strong, especially for GPUs
+Which One Should You Learn First?
+Beginner? → Start with Keras via TensorFlow 2.x (tf.keras). It's simple and production-ready.
+Researcher or experimenting a lot? → Use PyTorch.
+Looking for deployment & scalability? → TensorFlow is very robust.
