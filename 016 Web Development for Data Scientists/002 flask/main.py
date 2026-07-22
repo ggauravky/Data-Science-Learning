@@ -1,16 +1,17 @@
 from flask import Flask, render_template
 
-app = Flask(__name__)
+app = Flask(__name__ , static_folder="assets", template_folder="templates", asset_url_path="/assets")
 
 @app.route("/")
 def hello_world():
-    return "<p>Hello, World!</p>"
+    return render_template("index.html")
 
 @app.route("/about")
 def about():
-    return "<p>This is the about page.</p>"
+    return render_template("about.html")
+
 @app.route("/contact")
 def contact():
-    return render_template("index.html")
+    return render_template("contact.html")
 
 app.run(debug=True)
