@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>{% block title %}My App{% endblock %}</title>
+</head>
+<body>
+<nav style="background-color: #f2f2f2; padding: 10px ;">
+    <ul>
+        <li><a href="{{ url_for('hello_world') }}">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+   <div id="content">{% block content %}{% endblock %}</div>
+   <div id="footer">
+       {% block footer %}
+       &copy; 2026 My App. All rights reserved.
+       {% endblock %}
+   </div>
+</body>
+</html>
