@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <title>{% block title %}My App{% endblock %}</title>
 </head>
@@ -11,6 +13,16 @@
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
     </ul>
+</nav>
+{% with messages = get_flashed_messages() %}
+    {% if messages %}
+        <ul>
+            {% for msg in messages %}
+                <li>{{ msg }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endwith %}
    <div id="content">{% block content %}{% endblock %}</div>
    <div id="footer">
        {% block footer %}
