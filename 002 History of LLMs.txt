@@ -1,0 +1,41 @@
+History of LLMs
+Understanding the history of Large Language Models (LLMs) helps us appreciate how far we've come in natural language processing (NLP) and the innovations that made today’s AI systems possible.
+
+This section walks through the key milestones — from early statistical models to the modern transformer revolution.
+
+Early NLP Approaches
+Before LLMs, language tasks were handled using:
+
+Rule-based systems: Manually written logic for grammar and syntax.
+Statistical models: Such as n-gram models, which predicted the next word based on a fixed window of previous words.
+Bag-of-words and TF-IDF: Used for basic text classification but ignored word order and context.
+These models worked for simple tasks, but failed to capture deeper meaning, semantics, or long-range dependencies in language.
+
+The Rise of Neural Networks
+With the rise of deep learning, models began learning richer representations:
+
+Word Embeddings like Word2Vec (2013) and GloVe (2014) mapped words to continuous vector spaces.
+Recurrent Neural Networks (RNNs) and LSTMs enabled models to process sequences, but they struggled with long texts and parallel processing.
+Transformers: The Game Changer
+In 2017, Google introduced the Transformer architecture in the paper “Attention is All You Need.”
+
+Key features of transformers:
+
+Self-attention mechanism allows the model to weigh the importance of different words, regardless of their position.
+Enables parallelization, making training on massive datasets feasible.
+This led to a new generation of LLMs:
+
+Model	Year	Key Contribution
+BERT	2018	Bidirectional context understanding
+GPT-1	2018	Introduced unidirectional generation
+GPT-2	2019	Generated coherent long-form text
+T5	2020	Unified text-to-text framework
+GPT-3	2020	175B parameters, capable of few-shot learning
+ChatGPT / GPT-3.5 / GPT-4	2022–2023	Conversational abilities, better reasoning
+Claude, Gemini, LLaMA, Mistral	2023+	Open-source and scalable alternatives
+Pretraining & Finetuning
+The modern LLM pipeline consists of:
+
+Pretraining on a large corpus of general text (e.g., books, Wikipedia, web pages).
+Finetuning for specific tasks (e.g., summarization, coding help).
+Reinforcement Learning from Human Feedback (RLHF) — used to make models safer and more helpful (e.g., ChatGPT).
