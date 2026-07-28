@@ -1,0 +1,61 @@
+How LLMs work
+In this section, we break down the inner workings of Large Language Models (LLMs). While these models seem like magic from the outside, they are grounded in fundamental machine learning and deep learning principles — especially the transformer architecture.
+
+We’ll go through how LLMs process text, represent meaning, and generate coherent outputs.
+
+Tokenization: Breaking Text into Units
+LLMs do not process text as raw strings. Instead, they break input text into smaller units called tokens. Tokens can be:
+
+Whole words (for simple models)
+Subwords (e.g., "un" + "believ" + "able")
+Characters (rare for LLMs, used in specific domains)
+This process helps reduce the vocabulary size and handle unknown or rare words efficiently.
+
+Popular tokenizers include Byte-Pair Encoding (BPE) and SentencePiece.
+
+Embeddings: Converting Tokens to Vectors
+Once text is tokenized, each token is mapped to a high-dimensional vector through an embedding layer. These embeddings capture relationships between words based on context.
+
+For example, the words “king” and “queen” will be closer in the embedding space than unrelated words like “banana” or “car”.
+
+The Transformer Architecture
+The core of LLMs is the transformer, introduced in 2017. It replaced earlier models like RNNs and LSTMs by allowing for better performance and scalability.
+
+Key components of a transformer:
+
+Self-Attention Mechanism: Enables the model to focus on different parts of the input when processing each token. For example, in the sentence “The cat sat on the mat,” the word “sat” may attend more to “cat” and “mat” than to “the”.
+Multi-Head Attention: Allows the model to capture different types of relationships simultaneously.
+Feedforward Networks: Add depth and complexity to the model.
+Positional Encoding: Since transformers process all tokens in parallel, they need a way to encode the order of tokens.
+These components are stacked in layers — more layers typically mean more modeling power.
+
+Training LLMs: Predicting the Next Token
+LLMs are trained using a simple but powerful objective: predict the next token given the previous tokens.
+
+For example:
+
+Input: “The sun rises in the”
+Output: “east”
+The model adjusts its internal weights using a large dataset and gradient descent to minimize prediction error. Over billions of examples, the model learns grammar, facts, reasoning patterns, and even basic common sense.
+
+This process is known as causal language modeling in models like GPT. Other models like BERT use masked language modeling, where random tokens are hidden and the model must predict them.
+
+Generation: Producing Human-like Text
+Once trained, the model can generate text by predicting one token at a time:
+
+Start with an input prompt.
+Predict the next token based on context.
+Append the new token to the prompt.
+Repeat until a stopping condition is met.
+Several sampling strategies control the output:
+
+Greedy decoding: Always choose the most likely next token.
+Beam search: Explore multiple token sequences in parallel.
+Top-k / top-p sampling: Add randomness for more creative or diverse outputs.
+Limitations of LLMs
+Despite their capabilities, LLMs have limitations:
+
+No true understanding: They learn patterns, not meaning.
+Hallucinations: They can generate plausible but false information.
+Bias: Trained on large web corpora, they can inherit societal biases.
+Compute-intensive: Training and running LLMs requires significant hardware resources.
