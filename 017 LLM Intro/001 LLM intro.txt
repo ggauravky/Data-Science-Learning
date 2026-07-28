@@ -1,0 +1,40 @@
+LLM:
+- Stands for Large Language Model
+- A type of artificial intelligence model designed to understand and generate human-like text based on the input it receives.
+- LLMs are trained on vast amounts of text data, allowing them to learn patterns, grammar, context, and even some level of reasoning.
+- They can perform a variety of tasks, including text completion, translation, summarization, question answering, and more.
+
+Introduction to LLMs
+Large Language Models (LLMs) are a breakthrough in artificial intelligence that have revolutionized how machines understand and generate human language. These models are capable of performing a wide range of tasks such as translation, summarization, question answering, and even creative writing — all by learning from massive text datasets.
+
+In this section, we will build a foundational understanding of what LLMs are, why they matter in data science, and how they differ from traditional machine learning models.
+
+What is an LLM?
+A Large Language Model is a type of AI model that uses deep learning, specifically transformer architectures, to process and generate natural language. These models are “large” because they contain billions (or even trillions) of parameters — tunable weights that help the model make predictions.
+
+At their core, LLMs are trained to predict the next word in a sentence, given the words that came before. With enough data and training, they learn complex language patterns, world knowledge, and even reasoning skills.
+
+Why are LLMs Important?
+Versatility: One LLM can perform dozens of tasks without needing task-specific training.
+Zero-shot and few-shot learning: LLMs can handle tasks they've never explicitly seen before, based on prompts or examples.
+Human-like generation: They produce text that is often indistinguishable from human writing.
+Foundation for AI applications: They power modern tools like ChatGPT, Copilot, Bard, Claude, and more.
+How are LLMs Different from Traditional ML Models?
+Feature	Traditional ML Models	LLMs
+Input	Structured data	Natural language (text)
+Training	Task-specific	General pretraining on large text
+Parameters	Thousands to millions	Billions to trillions
+Adaptability	Limited	Highly adaptable via prompting
+Knowledge representation	Feature-engineered	Implicit via word embeddings
+Where are LLMs Used?
+LLMs are widely used across industries:
+
+Customer support: Chatbots and automated help desks
+
+Education: AI tutors, personalized learning
+
+Healthcare: Clinical documentation and patient interaction
+
+Software Development: Code generation and bug detection
+
+Creative fields: Story writing, poetry, music lyrics
