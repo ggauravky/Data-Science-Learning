@@ -1,0 +1,38 @@
+Retrieval Augmented Generation (RAG)
+As Large Language Models (LLMs) become central to modern AI applications, a key limitation remains: they don’t know anything beyond their training data. They cannot access up-to-date information or internal company documents unless explicitly provided.
+
+This is where RAG (Retrieval-Augmented Generation) systems come in. RAG bridges the gap between language generation and external knowledge, making LLMs more accurate, dynamic, and context-aware.
+
+What is a RAG System?
+Retrieval-Augmented Generation (RAG) is an AI architecture that combines:
+
+A retriever – to search a knowledge base for relevant documents or facts.
+A generator (LLM) – to synthesize a response using both the retrieved content and the input question.
+Rather than generating answers purely from internal memory (which may be outdated or incomplete), a RAG system fetches real documents and grounds the model's output in that information.
+
+Why Use RAG?
+RAG addresses several key challenges of LLMs:
+
+Problem in LLMs	How RAG Helps
+Hallucination (made-up facts)	Anchors generation in real data
+Outdated knowledge	Uses fresh, external sources like databases or websites
+Limited context window	Dynamically injects only the most relevant info
+Domain-specific needs	Connects model to private corpora, PDFs, etc.
+Basic Workflow of a RAG System
+User query →
+Retriever fetches relevant documents (e.g., from a vector database) →
+Documents + query are passed to the LLM →
+LLM generates a grounded, accurate response.
+This loop allows the model to act more like a researcher with access to a searchable library.
+
+Components of a RAG Pipeline
+Embedding Model: Converts text into dense vectors to enable similarity search.
+Vector Store: A searchable index (e.g., FAISS, Weaviate, Pinecone) where document embeddings are stored.
+Retriever: Queries the vector store with the input to find top-k most similar documents.
+LLM: Uses the retrieved content and prompt to generate a final response.
+Optional Reranker: Improves retrieval quality by reordering results.
+Example Use Cases
+Enterprise chatbots: Pull answers from internal documents and manuals.
+Customer support: Query knowledge bases in real-time.
+Academic research tools: Generate summaries grounded in actual papers.
+Healthcare assistants: Retrieve clinical guidelines or patient history for personalized advice.
