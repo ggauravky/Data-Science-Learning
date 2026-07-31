@@ -1,0 +1,1741 @@
+{
+  "chunks": [
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 0.0,
+      "end": 3.2800000000000002,
+      "text": " Guys, we are going to start CSS from today's video."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 3.2800000000000002,
+      "end": 5.28,
+      "text": " We have progressed a lot in this course."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 5.28,
+      "end": 7.28,
+      "text": " We have finished the entire HTML."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 7.28,
+      "end": 10.6,
+      "text": " And many of you have shown a lot of enthusiasm."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 10.6,
+      "end": 13.280000000000001,
+      "text": " Don't decline your interest in this video at all."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 13.280000000000001,
+      "end": 15.76,
+      "text": " Like this video and with high energy,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 15.76,
+      "end": 18.84,
+      "text": " write Sigma Batch OP in the comment section below."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 18.84,
+      "end": 21.72,
+      "text": " We have to maintain such high energy throughout the course."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 21.72,
+      "end": 24.32,
+      "text": " CSS stands for Cascading Style Sheets."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 24.32,
+      "end": 26.44,
+      "text": " And with the help of Cascading Style Sheets,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 26.44,
+      "end": 29.44,
+      "text": " we supplement HTML with some styles."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 29.44,
+      "end": 33.44,
+      "text": " HTML was never intended to create styled pages."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 33.44,
+      "end": 38.480000000000004,
+      "text": " HTML's work was to create a basic website structure."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 38.480000000000004,
+      "end": 41.760000000000005,
+      "text": " And CSS takes the responsibility of styling the page."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 41.760000000000005,
+      "end": 45.72,
+      "text": " CSS has selectors that help in selecting any element."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 45.72,
+      "end": 48.52,
+      "text": " I will tell you in this video what a selector is,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 48.52,
+      "end": 50.16,
+      "text": " how to write CSS."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 50.16,
+      "end": 53.400000000000006,
+      "text": " And in the coming videos, we are going to raise the bar like anything."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 53.400000000000006,
+      "end": 55.44,
+      "text": " We will make real-world websites."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 55.44,
+      "end": 59.64,
+      "text": " And such websites like Amazon, Flipkart, Netflix, YouTube,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 59.64,
+      "end": 62.76,
+      "text": " you will be capable of making all these websites."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 62.76,
+      "end": 64.75999999999999,
+      "text": " So, I am very excited."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 64.75999999999999,
+      "end": 66.4,
+      "text": " Let's go to the computer screen."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 66.4,
+      "end": 67.8,
+      "text": " Let's roll the intro."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 75.52,
+      "end": 77.36,
+      "text": " So, I have come to my computer screen."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 77.36,
+      "end": 79.68,
+      "text": " And as always, I will make a folder here too."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 79.68,
+      "end": 82.68,
+      "text": " And I will make a folder in the name of video 14."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 82.68,
+      "end": 84.8,
+      "text": " I am having a lot of fun in this course."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 84.88,
+      "end": 88.16,
+      "text": " Because honestly speaking, I have never made a course of this level."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 88.16,
+      "end": 91.52,
+      "text": " Now, here I will tell you about CSS first."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 91.52,
+      "end": 94.08,
+      "text": " Why will you use CSS?"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 94.08,
+      "end": 97.47999999999999,
+      "text": " HTML was never made to style web pages."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 97.47999999999999,
+      "end": 100.72,
+      "text": " HTML was always made to create a skeleton."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 100.72,
+      "end": 104.0,
+      "text": " There were many tags in HTML that were deprecated."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 104.0,
+      "end": 105.12,
+      "text": " Like font tag."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 105.12,
+      "end": 109.2,
+      "text": " Because HTML was responsible for creating a skeletal website."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 109.2,
+      "end": 110.36,
+      "text": " That's about it."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 110.36,
+      "end": 113.28,
+      "text": " After that, the work was to handle all CSS."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 113.28,
+      "end": 116.36,
+      "text": " Now, in this video, we will make real-world websites."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 116.36,
+      "end": 118.84,
+      "text": " And if you have not accessed the playlist, do that too."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 118.84,
+      "end": 120.76,
+      "text": " The source code is coming here."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 120.76,
+      "end": 123.52,
+      "text": " If you go to codewithhari.com."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 123.52,
+      "end": 126.2,
+      "text": " Then download the HTML notes there."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 126.2,
+      "end": 128.36,
+      "text": " You will get to see additional things."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 128.36,
+      "end": 130.48,
+      "text": " So, as soon as you click on PDF notes,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 130.48,
+      "end": 132.68,
+      "text": " you will get the PDF notes of HTML."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 132.68,
+      "end": 136.68,
+      "text": " These are handwritten notes written by me in my handwriting."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 136.68,
+      "end": 138.0,
+      "text": " I have worked very hard to write it."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 138.0,
+      "end": 139.96,
+      "text": " So, everyone must download it."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 139.96,
+      "end": 142.12,
+      "text": " And I will put the link in the description."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 142.12,
+      "end": 143.52,
+      "text": " I told you something here."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 143.52,
+      "end": 146.48000000000002,
+      "text": " If HTML is the body of a car,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 146.48000000000002,
+      "end": 148.48000000000002,
+      "text": " that is, the body of the car,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 148.48000000000002,
+      "end": 151.68,
+      "text": " then CSS is the paint, decoration, designs,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 151.68,
+      "end": 154.36,
+      "text": " seeds, interior, all these things."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 154.36,
+      "end": 155.48000000000002,
+      "text": " And what is JavaScript?"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 155.48000000000002,
+      "end": 157.28,
+      "text": " Engine and internal logic."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 157.28,
+      "end": 160.48000000000002,
+      "text": " Anyway, we will talk about engine and internal logic later."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 160.48000000000002,
+      "end": 161.52,
+      "text": " We have completed HTML."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 161.52,
+      "end": 164.76,
+      "text": " Now we are talking about CSS."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 164.76,
+      "end": 167.0,
+      "text": " Now I will tell you some more examples."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 167.0,
+      "end": 168.72,
+      "text": " Like your human body."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 168.72,
+      "end": 170.08,
+      "text": " The human body has a skeleton."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 170.08,
+      "end": 171.8,
+      "text": " You can consider the skeleton as HTML."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 171.8,
+      "end": 175.68,
+      "text": " Skin, hair, all this is CSS."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 175.68,
+      "end": 179.48000000000002,
+      "text": " And our brain, our nerves, our neurons,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 179.48000000000002,
+      "end": 182.56,
+      "text": " all that constitutes our JavaScript."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 182.56,
+      "end": 185.20000000000002,
+      "text": " So, I hope this thing is clear to you."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 185.20000000000002,
+      "end": 188.28,
+      "text": " So, in total, HTML was never intended to style websites."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 188.28,
+      "end": 189.72000000000003,
+      "text": " CSS took this responsibility."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 189.72000000000003,
+      "end": 192.0,
+      "text": " CSS said, HTML, you are done."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 192.0,
+      "end": 193.08,
+      "text": " Now I have come."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 193.08,
+      "end": 196.16000000000003,
+      "text": " And now I will help you in styling."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 196.16000000000003,
+      "end": 199.64000000000001,
+      "text": " So, CSS took the responsibility of styling pages."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 199.64,
+      "end": 201.88,
+      "text": " So, you must download these HTML notes."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 201.88,
+      "end": 203.16,
+      "text": " Anyway, spoiler alert,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 203.16,
+      "end": 205.44,
+      "text": " CSS's notes are also very good."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 205.44,
+      "end": 206.76,
+      "text": " But listen to me first,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 206.76,
+      "end": 208.07999999999998,
+      "text": " download them after that."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 208.07999999999998,
+      "end": 209.39999999999998,
+      "text": " I have given the spoiler."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 209.39999999999998,
+      "end": 210.79999999999998,
+      "text": " But don't download it now."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 210.79999999999998,
+      "end": 213.83999999999997,
+      "text": " I have taken a lot of time and effort to write this."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 213.83999999999997,
+      "end": 216.11999999999998,
+      "text": " So, you will get a lot of things."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 216.11999999999998,
+      "end": 216.92,
+      "text": " And it's fun."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 216.92,
+      "end": 219.35999999999999,
+      "text": " I have never made a course of this level."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 219.35999999999999,
+      "end": 220.48,
+      "text": " So, in total, this is the thing."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 220.48,
+      "end": 223.67999999999998,
+      "text": " So, if I click on shift right and open with code,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 223.67999999999998,
+      "end": 227.64,
+      "text": " then this folder of video 14 is opened in my VS code."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 227.64,
+      "end": 230.67999999999998,
+      "text": " Now, if I make a file index.html"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 230.67999999999998,
+      "end": 232.55999999999997,
+      "text": " and hit exclamation mark,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 232.55999999999997,
+      "end": 234.72,
+      "text": " here, some boilerplate code like this."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 234.72,
+      "end": 237.23999999999998,
+      "text": " Like we were doing in our HTML course."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 237.23999999999998,
+      "end": 238.83999999999997,
+      "text": " Similarly, if we do,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 238.83999999999997,
+      "end": 240.64,
+      "text": " just like HTML videos."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 240.64,
+      "end": 242.35999999999999,
+      "text": " And here I will write CSS in the title."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 242.35999999999999,
+      "end": 244.23999999999998,
+      "text": " And on the body, let's say I write a div."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 244.23999999999998,
+      "end": 245.39999999999998,
+      "text": " And I will write in it,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 245.39999999999998,
+      "end": 251.16,
+      "text": " Hey, I am Harry and today I am in CSS mood."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 251.16,
+      "end": 252.07999999999998,
+      "text": " Okay, let's say I wrote this."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 252.07999999999998,
+      "end": 253.07999999999998,
+      "text": " And here I will do a preview."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 253.07999999999998,
+      "end": 254.67999999999998,
+      "text": " So, as soon as I click on preview,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 254.67999999999998,
+      "end": 255.67999999999998,
+      "text": " you can see here,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 255.68,
+      "end": 257.92,
+      "text": " Hey, I am Harry and today I am in CSS mood."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 257.92,
+      "end": 259.44,
+      "text": " So, what is CSS?"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 259.44,
+      "end": 261.76,
+      "text": " CSS, basically, you can add"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 261.76,
+      "end": 263.48,
+      "text": " using style tag."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 263.48,
+      "end": 264.72,
+      "text": " There are two more ways,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 264.72,
+      "end": 266.92,
+      "text": " which I will tell you in the coming videos."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 266.92,
+      "end": 268.68,
+      "text": " I will tell you a lot of things."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 268.68,
+      "end": 270.2,
+      "text": " Now, look here, if I say,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 270.2,
+      "end": 272.72,
+      "text": " that, look, the div,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 272.72,
+      "end": 273.88,
+      "text": " the div,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 273.88,
+      "end": 276.08,
+      "text": " color it red."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 276.08,
+      "end": 277.08,
+      "text": " Let's say I say this."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 277.08,
+      "end": 277.92,
+      "text": " What did I say?"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 277.92,
+      "end": 280.0,
+      "text": " Color the div red."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 280.0,
+      "end": 281.28000000000003,
+      "text": " So, inside this div,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 281.28000000000003,
+      "end": 282.72,
+      "text": " what is this div?"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 282.72,
+      "end": 283.68,
+      "text": " This is a selector."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 283.68,
+      "end": 285.36,
+      "text": " And this is our declaration."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 285.36,
+      "end": 287.32,
+      "text": " So, selector and declaration."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 287.32,
+      "end": 288.16,
+      "text": " What is a selector?"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 288.16,
+      "end": 289.0,
+      "text": " It is a div."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 289.0,
+      "end": 291.36,
+      "text": " That is, the color of all the divs of this page,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 291.36,
+      "end": 293.04,
+      "text": " which is our key,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 293.04,
+      "end": 293.88,
+      "text": " this is our value,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 293.88,
+      "end": 294.72,
+      "text": " this is our property,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 294.72,
+      "end": 296.04,
+      "text": " this is the value of that property."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 296.04,
+      "end": 297.40000000000003,
+      "text": " Make the color red."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 297.40000000000003,
+      "end": 299.48,
+      "text": " Okay, so this is our declaration."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 299.48,
+      "end": 301.32,
+      "text": " And this is our selector."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 301.32,
+      "end": 302.96000000000004,
+      "text": " I hope you guys understood this."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 302.96000000000004,
+      "end": 304.72,
+      "text": " So, here, now if I show you the page,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 304.72,
+      "end": 306.28000000000003,
+      "text": " then see, what color has it become?"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 306.28000000000003,
+      "end": 307.12,
+      "text": " Red."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 307.12,
+      "end": 308.48,
+      "text": " Because I said, whatever div is on this page,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 308.48,
+      "end": 309.68,
+      "text": " make its color red."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 309.68,
+      "end": 312.6,
+      "text": " Okay, so if I make another div here,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 312.6,
+      "end": 313.88,
+      "text": " and if I write in it,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 313.88,
+      "end": 314.92,
+      "text": " I am good."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 314.92,
+      "end": 316.64000000000004,
+      "text": " Then the color of I am good will also be red."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 316.64000000000004,
+      "end": 317.88,
+      "text": " As you can see."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 317.88,
+      "end": 321.12,
+      "text": " And if I put another declaration in it,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 321.12,
+      "end": 323.28000000000003,
+      "text": " and I write here, background yellow."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 323.28000000000003,
+      "end": 325.72,
+      "text": " So here, its background also became yellow."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 325.72,
+      "end": 327.52000000000004,
+      "text": " Its background also became yellow."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 327.52000000000004,
+      "end": 329.92,
+      "text": " Whoever matches this selector,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 329.92,
+      "end": 332.0,
+      "text": " that element's background will become yellow."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 332.0,
+      "end": 333.36,
+      "text": " Like you see here,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 333.36,
+      "end": 334.52000000000004,
+      "text": " I said div,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 334.52000000000004,
+      "end": 336.08000000000004,
+      "text": " and here was this div,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 336.08000000000004,
+      "end": 337.16,
+      "text": " and this was this div."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 337.16,
+      "end": 338.96000000000004,
+      "text": " If I make a span here,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 338.96000000000004,
+      "end": 341.84000000000003,
+      "text": " and I write here, I am also good."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 341.84000000000003,
+      "end": 342.8,
+      "text": " Okay, so what will happen?"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 342.8,
+      "end": 344.16,
+      "text": " So will this be red too?"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 344.16,
+      "end": 345.76000000000005,
+      "text": " No, its color will not be red."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 345.76000000000005,
+      "end": 348.36,
+      "text": " Because this selector,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 348.36,
+      "end": 351.48,
+      "text": " and these declarations are not applicable"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 351.48,
+      "end": 352.48,
+      "text": " on these elements."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 352.48,
+      "end": 354.64000000000004,
+      "text": " Okay, any element which is not a div."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 354.64000000000004,
+      "end": 357.44000000000005,
+      "text": " Okay, if I put a paragraph here,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 357.44000000000005,
+      "end": 360.0,
+      "text": " and put lorem 435 in it."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 360.0,
+      "end": 362.88,
+      "text": " Oops, I think 435 is too much."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 362.88,
+      "end": 363.8,
+      "text": " 43 is enough."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 363.8,
+      "end": 365.64000000000004,
+      "text": " Okay, so here I have put a very big lorem,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 365.64000000000004,
+      "end": 367.52000000000004,
+      "text": " which will make our page very big."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 367.52000000000004,
+      "end": 371.52000000000004,
+      "text": " In this, the declaration was not applied."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 371.52000000000004,
+      "end": 373.16,
+      "text": " It was not applied in this too."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 373.16,
+      "end": 374.6,
+      "text": " I just said div,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 374.6,
+      "end": 378.52000000000004,
+      "text": " that's why all these conditions in div were applied."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 378.52000000000004,
+      "end": 379.8,
+      "text": " Now I can put a comma here"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 379.8,
+      "end": 382.0,
+      "text": " and select multiple elements."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 382.0,
+      "end": 384.40000000000003,
+      "text": " I can say, do this in both div and span."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 384.40000000000003,
+      "end": 386.64000000000004,
+      "text": " So in both div and span, the color will be red."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 386.64000000000004,
+      "end": 388.88000000000005,
+      "text": " And here the background color will be yellow."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 388.88000000000005,
+      "end": 389.88,
+      "text": " What is div and span?"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 389.88,
+      "end": 390.72,
+      "text": " These are my selectors."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 390.72,
+      "end": 392.96000000000004,
+      "text": " So I have applied these declarations"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 392.96000000000004,
+      "end": 394.88,
+      "text": " in multiple selectors."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 394.88,
+      "end": 395.88,
+      "text": " This is property."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 395.88,
+      "end": 397.08000000000004,
+      "text": " Background color is a property"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 397.08000000000004,
+      "end": 398.40000000000003,
+      "text": " whose value is yellow."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 398.40000000000003,
+      "end": 400.28000000000003,
+      "text": " Color is a property whose value is red."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 400.28000000000003,
+      "end": 402.96000000000004,
+      "text": " Okay, so here you can see,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 402.96,
+      "end": 404.59999999999997,
+      "text": " wherever there is div,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 404.59999999999997,
+      "end": 406.15999999999997,
+      "text": " wherever there is span,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 406.15999999999997,
+      "end": 408.35999999999996,
+      "text": " this thing will be applied there."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 408.35999999999996,
+      "end": 411.08,
+      "text": " And that's pretty much how CSS works."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 411.08,
+      "end": 412.32,
+      "text": " That's it, man."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 412.32,
+      "end": 414.84,
+      "text": " Now what will we learn in the coming videos?"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 414.84,
+      "end": 416.68,
+      "text": " That this happens with this property"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 416.68,
+      "end": 418.64,
+      "text": " and this happens with this selector."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 418.64,
+      "end": 421.4,
+      "text": " I will be telling you about different types of selectors."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 421.4,
+      "end": 422.08,
+      "text": " That's it, man."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 422.08,
+      "end": 422.79999999999995,
+      "text": " That's about it."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 422.79999999999995,
+      "end": 424.24,
+      "text": " It's as simple as that."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 424.24,
+      "end": 426.08,
+      "text": " And by using these selectors,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 426.08,
+      "end": 427.47999999999996,
+      "text": " we can create websites like Amazon,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 427.47999999999996,
+      "end": 429.32,
+      "text": " we can create websites like Flipkart,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 429.32,
+      "end": 431.56,
+      "text": " we can create websites like Facebook,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 431.56,
+      "end": 433.24,
+      "text": " we can create websites like Instagram."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 433.24,
+      "end": 434.92,
+      "text": " We can create all of these."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 434.92,
+      "end": 437.84,
+      "text": " And nowadays, there are only such technologies in the market"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 437.84,
+      "end": 440.6,
+      "text": " with which you can create mobile apps"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 440.6,
+      "end": 442.08,
+      "text": " by coding like this."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 442.08,
+      "end": 444.36,
+      "text": " We will explore all of these things, man."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 444.36,
+      "end": 447.12,
+      "text": " This course is going to be of a very extensive level."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 447.12,
+      "end": 448.6,
+      "text": " You will enjoy it too."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 448.6,
+      "end": 450.28,
+      "text": " We will be touching so many things."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 450.28,
+      "end": 454.0,
+      "text": " I gave you an exercise in video number 12."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 454.0,
+      "end": 456.28,
+      "text": " So if you haven't posted your answer,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 456.28,
+      "end": 458.24,
+      "text": " then do post your answer as soon as possible."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 458.24,
+      "end": 459.72,
+      "text": " Because I am going to give a shoutout"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 459.76000000000005,
+      "end": 462.12,
+      "text": " to whoever posts their answer in the comment section."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 462.12,
+      "end": 464.24,
+      "text": " So make sure you go to video 12"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 464.24,
+      "end": 466.88000000000005,
+      "text": " and solve the exercise of pure HTML player."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 466.88000000000005,
+      "end": 469.40000000000003,
+      "text": " Because it will be fun if there is a two-way interaction."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 469.40000000000003,
+      "end": 470.84000000000003,
+      "text": " There will be talks from both sides."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 470.84000000000003,
+      "end": 472.72,
+      "text": " I will give you a shoutout from here."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 472.72,
+      "end": 475.32000000000005,
+      "text": " You will enjoy it when you solve it from there."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 475.32000000000005,
+      "end": 476.8,
+      "text": " So do solve this."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 476.8,
+      "end": 478.88000000000005,
+      "text": " Now I want to tell you about Replit."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 478.88000000000005,
+      "end": 480.44000000000005,
+      "text": " Many people say that we have a phone,"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 480.44000000000005,
+      "end": 481.52000000000004,
+      "text": " we don't have a laptop."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 481.52000000000004,
+      "end": 483.0,
+      "text": " Many people have problems."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 483.0,
+      "end": 484.96000000000004,
+      "text": " So Replit is an amazing platform"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 484.96000000000004,
+      "end": 486.56,
+      "text": " which you can try out."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 486.56,
+      "end": 489.0,
+      "text": " You just have to sign up here"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 489.0,
+      "end": 492.6,
+      "text": " and you will be able to write HTML, CSS and JavaScript here."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 492.6,
+      "end": 494.12,
+      "text": " And it works very well."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 494.12,
+      "end": 497.48,
+      "text": " I have used it for my production grade projects."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 497.48,
+      "end": 501.24,
+      "text": " And I have made many videos on this channel too."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 501.24,
+      "end": 503.76,
+      "text": " So we did 100 days of code on Replit."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 503.76,
+      "end": 506.44,
+      "text": " So you can use this if you don't have a laptop."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 506.44,
+      "end": 507.76,
+      "text": " You code on your phone."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 507.76,
+      "end": 509.28,
+      "text": " It will be a very good experience for you."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 509.28,
+      "end": 511.68,
+      "text": " So guys, write in the comment section below"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 511.68,
+      "end": 513.52,
+      "text": " if you are enjoying this course or not."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 513.52,
+      "end": 516.32,
+      "text": " Because I want all of your comments in the comment section below"
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 516.32,
+      "end": 517.96,
+      "text": " that are you enjoying it."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 517.96,
+      "end": 519.8000000000001,
+      "text": " Do access this playlist."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 519.8000000000001,
+      "end": 521.52,
+      "text": " Also access the source code."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 521.52,
+      "end": 523.48,
+      "text": " I have updated the source code of all the videos."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 523.48,
+      "end": 526.0,
+      "text": " And name both your village and your land."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 526.0,
+      "end": 527.52,
+      "text": " That's it for this video guys."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 527.52,
+      "end": 529.52,
+      "text": " Thank you so much guys for watching this video."
+    },
+    {
+      "number": "14",
+      "title": "Introduction to CSS",
+      "start": 529.52,
+      "end": 532.0,
+      "text": " And I will see you next time."
+    }
+  ],
+  "text": " Guys, we are going to start CSS from today's video. We have progressed a lot in this course. We have finished the entire HTML. And many of you have shown a lot of enthusiasm. Don't decline your interest in this video at all. Like this video and with high energy, write Sigma Batch OP in the comment section below. We have to maintain such high energy throughout the course. CSS stands for Cascading Style Sheets. And with the help of Cascading Style Sheets, we supplement HTML with some styles. HTML was never intended to create styled pages. HTML's work was to create a basic website structure. And CSS takes the responsibility of styling the page. CSS has selectors that help in selecting any element. I will tell you in this video what a selector is, how to write CSS. And in the coming videos, we are going to raise the bar like anything. We will make real-world websites. And such websites like Amazon, Flipkart, Netflix, YouTube, you will be capable of making all these websites. So, I am very excited. Let's go to the computer screen. Let's roll the intro. So, I have come to my computer screen. And as always, I will make a folder here too. And I will make a folder in the name of video 14. I am having a lot of fun in this course. Because honestly speaking, I have never made a course of this level. Now, here I will tell you about CSS first. Why will you use CSS? HTML was never made to style web pages. HTML was always made to create a skeleton. There were many tags in HTML that were deprecated. Like font tag. Because HTML was responsible for creating a skeletal website. That's about it. After that, the work was to handle all CSS. Now, in this video, we will make real-world websites. And if you have not accessed the playlist, do that too. The source code is coming here. If you go to codewithhari.com. Then download the HTML notes there. You will get to see additional things. So, as soon as you click on PDF notes, you will get the PDF notes of HTML. These are handwritten notes written by me in my handwriting. I have worked very hard to write it. So, everyone must download it. And I will put the link in the description. I told you something here. If HTML is the body of a car, that is, the body of the car, then CSS is the paint, decoration, designs, seeds, interior, all these things. And what is JavaScript? Engine and internal logic. Anyway, we will talk about engine and internal logic later. We have completed HTML. Now we are talking about CSS. Now I will tell you some more examples. Like your human body. The human body has a skeleton. You can consider the skeleton as HTML. Skin, hair, all this is CSS. And our brain, our nerves, our neurons, all that constitutes our JavaScript. So, I hope this thing is clear to you. So, in total, HTML was never intended to style websites. CSS took this responsibility. CSS said, HTML, you are done. Now I have come. And now I will help you in styling. So, CSS took the responsibility of styling pages. So, you must download these HTML notes. Anyway, spoiler alert, CSS's notes are also very good. But listen to me first, download them after that. I have given the spoiler. But don't download it now. I have taken a lot of time and effort to write this. So, you will get a lot of things. And it's fun. I have never made a course of this level. So, in total, this is the thing. So, if I click on shift right and open with code, then this folder of video 14 is opened in my VS code. Now, if I make a file index.html and hit exclamation mark, here, some boilerplate code like this. Like we were doing in our HTML course. Similarly, if we do, just like HTML videos. And here I will write CSS in the title. And on the body, let's say I write a div. And I will write in it, Hey, I am Harry and today I am in CSS mood. Okay, let's say I wrote this. And here I will do a preview. So, as soon as I click on preview, you can see here, Hey, I am Harry and today I am in CSS mood. So, what is CSS? CSS, basically, you can add using style tag. There are two more ways, which I will tell you in the coming videos. I will tell you a lot of things. Now, look here, if I say, that, look, the div, the div, color it red. Let's say I say this. What did I say? Color the div red. So, inside this div, what is this div? This is a selector. And this is our declaration. So, selector and declaration. What is a selector? It is a div. That is, the color of all the divs of this page, which is our key, this is our value, this is our property, this is the value of that property. Make the color red. Okay, so this is our declaration. And this is our selector. I hope you guys understood this. So, here, now if I show you the page, then see, what color has it become? Red. Because I said, whatever div is on this page, make its color red. Okay, so if I make another div here, and if I write in it, I am good. Then the color of I am good will also be red. As you can see. And if I put another declaration in it, and I write here, background yellow. So here, its background also became yellow. Its background also became yellow. Whoever matches this selector, that element's background will become yellow. Like you see here, I said div, and here was this div, and this was this div. If I make a span here, and I write here, I am also good. Okay, so what will happen? So will this be red too? No, its color will not be red. Because this selector, and these declarations are not applicable on these elements. Okay, any element which is not a div. Okay, if I put a paragraph here, and put lorem 435 in it. Oops, I think 435 is too much. 43 is enough. Okay, so here I have put a very big lorem, which will make our page very big. In this, the declaration was not applied. It was not applied in this too. I just said div, that's why all these conditions in div were applied. Now I can put a comma here and select multiple elements. I can say, do this in both div and span. So in both div and span, the color will be red. And here the background color will be yellow. What is div and span? These are my selectors. So I have applied these declarations in multiple selectors. This is property. Background color is a property whose value is yellow. Color is a property whose value is red. Okay, so here you can see, wherever there is div, wherever there is span, this thing will be applied there. And that's pretty much how CSS works. That's it, man. Now what will we learn in the coming videos? That this happens with this property and this happens with this selector. I will be telling you about different types of selectors. That's it, man. That's about it. It's as simple as that. And by using these selectors, we can create websites like Amazon, we can create websites like Flipkart, we can create websites like Facebook, we can create websites like Instagram. We can create all of these. And nowadays, there are only such technologies in the market with which you can create mobile apps by coding like this. We will explore all of these things, man. This course is going to be of a very extensive level. You will enjoy it too. We will be touching so many things. I gave you an exercise in video number 12. So if you haven't posted your answer, then do post your answer as soon as possible. Because I am going to give a shoutout to whoever posts their answer in the comment section. So make sure you go to video 12 and solve the exercise of pure HTML player. Because it will be fun if there is a two-way interaction. There will be talks from both sides. I will give you a shoutout from here. You will enjoy it when you solve it from there. So do solve this. Now I want to tell you about Replit. Many people say that we have a phone, we don't have a laptop. Many people have problems. So Replit is an amazing platform which you can try out. You just have to sign up here and you will be able to write HTML, CSS and JavaScript here. And it works very well. I have used it for my production grade projects. And I have made many videos on this channel too. So we did 100 days of code on Replit. So you can use this if you don't have a laptop. You code on your phone. It will be a very good experience for you. So guys, write in the comment section below if you are enjoying this course or not. Because I want all of your comments in the comment section below that are you enjoying it. Do access this playlist. Also access the source code. I have updated the source code of all the videos. And name both your village and your land. That's it for this video guys. Thank you so much guys for watching this video. And I will see you next time."
+}
