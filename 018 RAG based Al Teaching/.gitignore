@@ -1,3 +1,5 @@
+*__pycache__
+
 # Audio
 *.mp3
 *.wav
@@ -62,3 +64,6 @@
 
 # Disk images
 *.iso
+
+
+*.env

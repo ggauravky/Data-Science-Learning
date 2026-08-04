@@ -1,1 +1,544 @@
-{"chunks": [{"number": "17", "title": "CSS Selectors MasterClass", "start": 0.0, "end": 8.700000000000001, "text": " Guys, we talked about selectors in CSS and we said that selectors are used to select an element on which style is going to be applied."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 8.700000000000001, "end": 14.3, "text": " Now, what kind of elements can we apply style on and how can we select those elements?"}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 14.3, "end": 16.9, "text": " For example, element with an id, element with a class."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 16.9, "end": 20.0, "text": " We can target the element by its name."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 20.0, "end": 27.2, "text": " And we can also decide that if there is a particular type of element in a particular type of element, then only styling can be applied."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 27.2, "end": 32.4, "text": " I will explain the rules of styling in this video and will explain selectors to you."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 32.4, "end": 36.0, "text": " If you are enjoying this course, then do write Sigma patch OP in the comment section below."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 36.0, "end": 38.9, "text": " We have to maintain high energy throughout the course."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 38.9, "end": 41.8, "text": " I want to give you a heads up that this video is very important."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 41.8, "end": 44.0, "text": " This is a very important video of CSS."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 44.0, "end": 45.6, "text": " So increase your excitement."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 45.6, "end": 47.1, "text": " Let's go to the computer screen."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 47.1, "end": 48.6, "text": " Let's roll the intro."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 48.6, "end": 62.7, "text": " Alright guys, so I have come to my computer screen and the first thing I am going to do is to make a folder for video 17."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 62.7, "end": 67.7, "text": " And video 17 is one of the most important videos of CSS."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 67.7, "end": 72.7, "text": " Because if you understand how selectors work, then your work will be very easy."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 72.7, "end": 75.7, "text": " So I will make it here with the name video 17."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 75.8, "end": 77.8, "text": " I will make index.html here."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 77.8, "end": 81.8, "text": " And I am going to use the internal CSS here."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 81.8, "end": 82.8, "text": " I will not make it in the style sheet."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 82.8, "end": 86.8, "text": " So that you can see how I am doing whatever I am doing."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 86.8, "end": 88.8, "text": " And here I will do a lot of things."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 88.8, "end": 93.80000000000001, "text": " I will turn on Word Wrap, I will turn on Screencast Mode so that you can see whatever button I press."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 93.80000000000001, "end": 96.80000000000001, "text": " And I will write CSS selectors here."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 96.80000000000001, "end": 98.80000000000001, "text": " And I will make a div here."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 98.80000000000001, "end": 100.80000000000001, "text": " And I made a simple div here."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 100.80000000000001, "end": 102.80000000000001, "text": " I wrote I am a div here."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 102.89999999999999, "end": 106.89999999999999, "text": " Guys, if you haven't accessed it yet, then do play the playlist of Sigma Web Development."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 106.89999999999999, "end": 108.89999999999999, "text": " And the source code is getting updated."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 108.89999999999999, "end": 111.89999999999999, "text": " So you should not have any tension in that regard."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 111.89999999999999, "end": 114.89999999999999, "text": " Now what I am going to do here is a very simple thing."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 114.89999999999999, "end": 116.89999999999999, "text": " I will preview this first."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 116.89999999999999, "end": 119.9, "text": " And I want to make the background of this div red."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 119.9, "end": 122.9, "text": " Now you will say why do you want to make the background red?"}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 122.9, "end": 124.9, "text": " Because I want to know how much space this div is taking."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 124.9, "end": 126.9, "text": " That's why I want to make it red."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 126.9, "end": 128.9, "text": " So I want to make it red."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 128.9, "end": 131.9, "text": " So I will simply give the background here red."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 132.0, "end": 135.0, "text": " So I will put a style tag here."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 135.0, "end": 142.0, "text": " I will say that the background of the div should be red."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 142.0, "end": 145.0, "text": " Now this is our property, this is our value."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 145.0, "end": 148.0, "text": " I will tell you about other properties and values."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 148.0, "end": 151.0, "text": " But for now, you understand that this is a property and this is a value."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 151.0, "end": 155.0, "text": " So what I did here was an element selector."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 155.0, "end": 158.0, "text": " So I will write here Element Selector."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 158.0, "end": 160.0, "text": " And I will comment this here."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 160.1, "end": 162.1, "text": " So in CSS, comments are written like this."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 162.1, "end": 165.1, "text": " Here forward slash star and then star forward slash."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 165.1, "end": 167.1, "text": " Whatever we write in the middle of the star forward slash, those are comments in CSS."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 167.1, "end": 169.1, "text": " So I put a CSS comment that this is an element selector."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 169.1, "end": 172.1, "text": " You will see here that the background of this div has turned red."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 172.1, "end": 174.1, "text": " This was our element selector."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 174.1, "end": 176.1, "text": " A very basic selector."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 176.1, "end": 179.1, "text": " Now what are the drawbacks of the element selector that I made here?"}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 179.1, "end": 182.1, "text": " The drawbacks are that the moment I add another div here."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 184.1, "end": 186.1, "text": " So what will happen? The background of this div will also turn red."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 186.2, "end": 189.2, "text": " And it is possible that you do not want to make the background of this div red."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 189.2, "end": 194.2, "text": " So if you don't want to make the background of this div red, what will you do?"}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 194.2, "end": 198.2, "text": " Definitely you will use some other type of selector here."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 198.2, "end": 201.2, "text": " And you will want to use a specific selector."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 201.2, "end": 206.2, "text": " So I can say that do one thing, where the class is red, only that div should be red."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 206.2, "end": 208.2, "text": " So I made class is equal to red here."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 208.2, "end": 211.2, "text": " Now because I have made class is equal to red here."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 211.2, "end": 213.2, "text": " You will get to see here what?"}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 213.29999999999998, "end": 216.29999999999998, "text": " If I write here dot red."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 216.29999999999998, "end": 220.29999999999998, "text": " And after this if I make the background color red."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 220.29999999999998, "end": 222.29999999999998, "text": " Suppose I comment this out."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 222.29999999999998, "end": 224.29999999999998, "text": " I don't want all the divs to turn red."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 224.29999999999998, "end": 227.29999999999998, "text": " So I will show you that only this div will be red."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 227.29999999999998, "end": 229.29999999999998, "text": " As you can see here."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 229.29999999999998, "end": 232.29999999999998, "text": " So that's why I used class selector here."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 232.29999999999998, "end": 234.29999999999998, "text": " So this is our class selector."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 234.29999999999998, "end": 237.29999999999998, "text": " I will write here class selector."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 237.29999999999998, "end": 240.29999999999998, "text": " After this, the next selector I am going to tell you is ID selector."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 240.4, "end": 245.4, "text": " And you must have guessed it as soon as you heard ID selector."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 245.4, "end": 249.4, "text": " Let us say I want the ID with hashtag red."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 249.4, "end": 253.4, "text": " Or let's do one thing, let's make an ID with hashtag green."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 253.4, "end": 256.40000000000003, "text": " And if I write here background color green."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 256.40000000000003, "end": 259.40000000000003, "text": " So wherever I will give ID green, it will be green."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 259.40000000000003, "end": 262.40000000000003, "text": " Now you can see here that our I am another div."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 262.40000000000003, "end": 264.40000000000003, "text": " It has no color, no background color."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 264.40000000000003, "end": 267.40000000000003, "text": " But as soon as I give it ID green, I will show you."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 267.5, "end": 269.5, "text": " I will write here."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 269.5, "end": 271.5, "text": " I will give ID to this."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 271.5, "end": 272.5, "text": " Green."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 272.5, "end": 276.5, "text": " And you can see that I have given background color green in green name."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 276.5, "end": 279.5, "text": " So this is our ID selector."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 279.5, "end": 281.5, "text": " It was very simple."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 281.5, "end": 283.5, "text": " Yes, it is simple."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 283.5, "end": 286.5, "text": " Now I will tell you what is child selector."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 286.5, "end": 288.5, "text": " And the source code."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 288.5, "end": 291.5, "text": " This will work for your notes."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 291.5, "end": 293.5, "text": " So what is child selector?"}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 293.6, "end": 297.6, "text": " If I want paragraph in div to be blue."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 297.6, "end": 301.6, "text": " So I say the color of paragraph in div should be blue."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 301.6, "end": 303.6, "text": " And what should be the background color?"}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 303.6, "end": 306.6, "text": " Background color should be brown."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 306.6, "end": 308.6, "text": " Let's say I want this."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 308.6, "end": 310.6, "text": " If I put a paragraph in any div."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 310.6, "end": 314.6, "text": " I am a para inside div."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 314.6, "end": 316.6, "text": " So what will happen?"}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 316.6, "end": 318.6, "text": " This child selector will be applied."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 318.6, "end": 320.6, "text": " Because this is child of div."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 320.6, "end": 322.6, "text": " This paragraph is child of div."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 322.70000000000005, "end": 326.70000000000005, "text": " And I have said that if any paragraph of div is child."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 326.70000000000005, "end": 328.70000000000005, "text": " So what will happen?"}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 328.70000000000005, "end": 330.70000000000005, "text": " So its background will be brown."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 330.70000000000005, "end": 332.70000000000005, "text": " And color will be blue."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 332.70000000000005, "end": 334.70000000000005, "text": " As simple as that."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 334.70000000000005, "end": 336.70000000000005, "text": " Now I will show you one thing."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 336.70000000000005, "end": 338.70000000000005, "text": " If I wrap this whole thing in a div."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 338.70000000000005, "end": 340.70000000000005, "text": " Actually I will span this."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 340.70000000000005, "end": 342.70000000000005, "text": " I will not do div."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 342.70000000000005, "end": 344.70000000000005, "text": " I will put it in main or some other element."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 344.70000000000005, "end": 348.70000000000005, "text": " Let's say I use article tag."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 348.70000000000005, "end": 350.70000000000005, "text": " So now this paragraph is not in div."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 350.8, "end": 352.8, "text": " Now this paragraph is not in div."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 352.8, "end": 354.8, "text": " Now this paragraph is in article."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 354.8, "end": 356.8, "text": " So this property will not be applied."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 356.8, "end": 358.8, "text": " Now this property is not applied."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 358.8, "end": 360.8, "text": " Because this selector means."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 360.8, "end": 362.8, "text": " If this is directly in div."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 362.8, "end": 364.8, "text": " Direct child."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 364.8, "end": 366.8, "text": " Then this selector will be applied."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 366.8, "end": 368.8, "text": " Otherwise it will not be."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 368.8, "end": 370.8, "text": " Here this is not a direct child."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 370.8, "end": 372.8, "text": " Article is in div."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 372.8, "end": 374.8, "text": " Then P."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 374.8, "end": 376.8, "text": " But if I want."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 376.8, "end": 378.8, "text": " If paragraph is a descendant of any div."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 378.90000000000003, "end": 380.90000000000003, "text": " If this is a descendant of div."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 380.90000000000003, "end": 382.90000000000003, "text": " Then this property will be applied."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 382.90000000000003, "end": 384.90000000000003, "text": " Then what will I do?"}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 384.90000000000003, "end": 386.90000000000003, "text": " I have another way."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 386.90000000000003, "end": 388.90000000000003, "text": " I will simply."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 388.90000000000003, "end": 390.90000000000003, "text": " I will use descendant selector."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 390.90000000000003, "end": 392.90000000000003, "text": " And what is descendant selector?"}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 392.90000000000003, "end": 394.90000000000003, "text": " Descendant selector is."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 394.90000000000003, "end": 396.90000000000003, "text": " We write something like this."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 396.90000000000003, "end": 398.90000000000003, "text": " I will write div."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 398.90000000000003, "end": 400.90000000000003, "text": " Then I will write space."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 400.90000000000003, "end": 402.90000000000003, "text": " And then P."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 402.90000000000003, "end": 404.90000000000003, "text": " I am saying that P should be in div."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 404.90000000000003, "end": 406.90000000000003, "text": " No matter what it is."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 407.0, "end": 409.0, "text": " If P is in footer."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 409.0, "end": 411.0, "text": " Then it should be in div."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 411.0, "end": 413.0, "text": " In some form."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 413.0, "end": 415.0, "text": " It should be a descendant of div."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 415.0, "end": 417.0, "text": " So you see."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 417.0, "end": 419.0, "text": " Now this property is applied."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 419.0, "end": 421.0, "text": " But when I talk about child selector."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 421.0, "end": 423.0, "text": " Then child selector should be a direct child."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 423.0, "end": 425.0, "text": " I hope you are getting it."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 425.0, "end": 427.0, "text": " Now there is another one."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 427.0, "end": 429.0, "text": " Universal selector."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 429.0, "end": 431.0, "text": " If I want to give all elements."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 431.0, "end": 433.0, "text": " Margin 0."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 433.0, "end": 435.0, "text": " And padding 0."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 435.1, "end": 437.1, "text": " If I write P0."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 437.1, "end": 439.1, "text": " Then I can write padding 0."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 439.1, "end": 441.1, "text": " It means all elements have a margin 0."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 441.1, "end": 443.1, "text": " And padding 0."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 443.1, "end": 445.1, "text": " Earlier there was margin and padding."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 445.1, "end": 447.1, "text": " Which was given by default."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 447.1, "end": 449.1, "text": " But now this margin and padding is over."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 449.1, "end": 451.1, "text": " Like you have seen."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 451.1, "end": 453.1, "text": " I hope you have understood this."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 453.1, "end": 455.1, "text": " There are many types of selectors."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 455.1, "end": 457.1, "text": " But these are the most used selectors."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 457.1, "end": 459.1, "text": " Now I will tell you about."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 459.1, "end": 461.1, "text": " More selectors in the coming videos."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 461.1, "end": 463.1, "text": " But these are the ones."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 463.20000000000005, "end": 465.20000000000005, "text": " I don't want to confuse you."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 465.20000000000005, "end": 467.20000000000005, "text": " And you can't learn."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 467.20000000000005, "end": 469.20000000000005, "text": " These main selectors."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 469.20000000000005, "end": 471.20000000000005, "text": " So I want you to pay attention."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 471.20000000000005, "end": 473.20000000000005, "text": " This is the most important."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 473.20000000000005, "end": 475.20000000000005, "text": " 99% of the websites are made."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 475.20000000000005, "end": 477.20000000000005, "text": " Through this."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 477.20000000000005, "end": 479.20000000000005, "text": " So let's focus on this."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 479.20000000000005, "end": 481.20000000000005, "text": " I hope you have understood."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 481.20000000000005, "end": 483.20000000000005, "text": " And you have understood it."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 483.20000000000005, "end": 485.20000000000005, "text": " There is one more important selector."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 485.20000000000005, "end": 487.20000000000005, "text": " I will tell you that."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 487.20000000000005, "end": 489.20000000000005, "text": " Pseudo selectors."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 489.20000000000005, "end": 491.20000000000005, "text": " What is this pseudo selector?"}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 491.3, "end": 493.3, "text": " I have a link."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 493.3, "end": 495.3, "text": " I will write it here."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 495.3, "end": 497.3, "text": " Universal selector."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 497.3, "end": 499.3, "text": " Universal selector."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 501.3, "end": 503.3, "text": " Universal selector."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 503.3, "end": 505.3, "text": " What is this?"}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 505.3, "end": 507.3, "text": " Why is the comment not working?"}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 507.3, "end": 509.3, "text": " Now I will write."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 509.3, "end": 511.3, "text": " Pseudo."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 511.3, "end": 513.3, "text": " Pseudo."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 513.3, "end": 515.3, "text": " Yes I know."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 515.3, "end": 517.3, "text": " Don't write in the comment."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 517.3, "end": 519.3, "text": " Pseudo is not Pseudo."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 519.4, "end": 521.4, "text": " It is pneumonia."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 521.4, "end": 523.4, "text": " Why is it silent?"}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 523.4, "end": 525.4, "text": " Tell me in the comment."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 525.4, "end": 527.4, "text": " If it was silent, it would have been like this."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 527.4, "end": 529.4, "text": " Tell me in the comment."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 529.4, "end": 531.4, "text": " Who has the knowledge."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 531.4, "end": 533.4, "text": " But now I will share my knowledge with you."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 533.4, "end": 535.4, "text": " And that is pseudo selectors."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 535.4, "end": 537.4, "text": " Now assume I have a link."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 537.4, "end": 539.4, "text": " I have a link."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 539.4, "end": 541.4, "text": " LINK."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 541.4, "end": 543.4, "text": " Now I will write."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 543.4, "end": 545.4, "text": " https://www.google.com"}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 545.4, "end": 547.4, "text": " And I will write."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 547.5, "end": 549.5, "text": " Go to Google."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 549.5, "end": 551.5, "text": " And"}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 551.5, "end": 553.5, "text": " It is very good."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 553.5, "end": 555.5, "text": " You will go to Google and ask what is new in this."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 555.5, "end": 557.5, "text": " I want the color to be."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 557.5, "end": 559.5, "text": " Let us say white."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 559.5, "end": 561.5, "text": " No I won't keep white."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 561.5, "end": 563.5, "text": " I want it to be yellow."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 563.5, "end": 565.5, "text": " I want it to be visited."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 565.5, "end": 567.5, "text": " I want it to be visited."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 567.5, "end": 569.5, "text": " I want it to be visited."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 569.5, "end": 571.5, "text": " I want the color to be yellow."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 571.5, "end": 573.5, "text": " I will make the color yellow."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 573.5, "end": 575.5, "text": " Will the color be yellow?"}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 575.6, "end": 577.6, "text": " Yes."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 577.6, "end": 579.6, "text": " Anchor text if I want."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 579.6, "end": 581.6, "text": " After visiting."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 581.6, "end": 583.6, "text": " I can use the pseudo selector."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 583.6, "end": 585.6, "text": " So here you can see."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 585.6, "end": 587.6, "text": " It's change color."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 587.6, "end": 589.6, "text": " Then if you use a colon link."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 589.6, "end": 591.6, "text": " That is the link that."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 591.6, "end": 593.6, "text": " Is not visited."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 593.6, "end": 595.6, "text": " If you want the color to be green."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 595.6, "end": 597.6, "text": " I will put a link."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 597.6, "end": 599.6, "text": " What will be the color."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 599.6, "end": 601.6, "text": " I will do this way."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 601.6, "end": 603.6, "text": " Go to Facebook."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 603.6, "end": 605.8000000000001, "text": " Let's capitalize Google's G as well."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 605.8000000000001, "end": 607.8000000000001, "text": " So will its color be green?"}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 607.8000000000001, "end": 609.0, "text": " No, it won't be green."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 609.0, "end": 611.0, "text": " Maybe I have already visited Facebook."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 611.0, "end": 612.4, "text": " Sorry, I have visited Google."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 612.4, "end": 614.6, "text": " So I have to write Facebook here as well."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 614.6, "end": 615.6, "text": " Okay."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 615.6, "end": 617.6, "text": " So I won't be able to write Facebook."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 617.6, "end": 619.2, "text": " What will happen if I write Facebook 2?"}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 619.2, "end": 621.8000000000001, "text": " Yes, if I write Facebook 2, see this, I haven't visited it."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 621.8000000000001, "end": 622.6, "text": " Facebook2.com"}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 622.6, "end": 624.6, "text": " I have actually visited Facebook.com."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 624.6, "end": 626.6, "text": " If you remember, in the initial few lectures."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 626.6, "end": 628.0, "text": " So that's why it is showing like this."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 628.0, "end": 630.8000000000001, "text": " Now I will tell you about two more selectors."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 630.8000000000001, "end": 631.8000000000001, "text": " Links related."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 631.8, "end": 633.4, "text": " One is A-active."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 633.4, "end": 633.8, "text": " Okay."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 633.8, "end": 636.4, "text": " And I tell you, if you type any pseudo selector."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 636.4, "end": 638.1999999999999, "text": " It shows you the image in the suggestion."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 638.1999999999999, "end": 639.4, "text": " Now if I want."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 639.4, "end": 641.8, "text": " The background color of A-active to be red."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 641.8, "end": 643.4, "text": " So as soon as I click on any link."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 643.4, "end": 644.5999999999999, "text": " You see its background color is red."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 644.5999999999999, "end": 645.8, "text": " So active means."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 645.8, "end": 647.4, "text": " When you are clicking, then."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 647.4, "end": 648.1999999999999, "text": " Okay, so see here."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 648.1999999999999, "end": 649.4, "text": " Google.com page is coming."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 649.4, "end": 651.4, "text": " And as soon as I click, its background will be red."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 651.4, "end": 652.0, "text": " Okay."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 652.0, "end": 654.5999999999999, "text": " Yes, I know that ideally you will not want to use."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 654.5999999999999, "end": 655.4, "text": " Background color red."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 655.4, "end": 656.8, "text": " But that was just an example."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 656.8, "end": 658.8, "text": " To show you how it happens."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 658.8, "end": 660.0, "text": " The easiest thing for me is."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 660.0, "end": 661.5999999999999, "text": " That I make the background color red."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 661.6, "end": 663.2, "text": " Because you will know this directly."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 663.2, "end": 663.8000000000001, "text": " Okay."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 663.8000000000001, "end": 665.0, "text": " Now after this."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 665.0, "end": 667.4, "text": " What else do we have besides anchor tag?"}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 667.4, "end": 669.4, "text": " Some pseudo selectors."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 669.4, "end": 670.4, "text": " The answer is yes."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 670.4, "end": 671.2, "text": " Definitely."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 671.2, "end": 672.0, "text": " One is hover."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 672.0, "end": 673.2, "text": " Okay, if I want."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 673.2, "end": 674.4, "text": " That on div."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 674.4, "end": 675.6, "text": " Sorry, on anchor tag."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 675.6, "end": 676.6, "text": " Anyone can hover."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 676.6, "end": 677.2, "text": " Okay."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 677.2, "end": 678.0, "text": " And I want."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 678.0, "end": 679.8000000000001, "text": " That its background color becomes red."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 679.8000000000001, "end": 681.2, "text": " Or the background color becomes yellow."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 681.2, "end": 683.6, "text": " I make its background color yellow."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 683.6, "end": 684.6, "text": " So if I hover."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 684.6, "end": 685.8000000000001, "text": " Then you can see here."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 685.8000000000001, "end": 687.0, "text": " That this is."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 687.0, "end": 688.2, "text": " Here its background color."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 688.2, "end": 688.8000000000001, "text": " Becomes yellow."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 688.8000000000001, "end": 689.8000000000001, "text": " As soon as I hover."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 690.0, "end": 691.4, "text": " I wrote here a hover."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 691.4, "end": 692.5999999999999, "text": " And background color yellow."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 692.5999999999999, "end": 694.5999999999999, "text": " So these were some pseudo selectors."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 694.5999999999999, "end": 696.8, "text": " Now I will tell you one more pseudo selector."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 696.8, "end": 698.0, "text": " And that will be."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 698.0, "end": 699.1999999999999, "text": " If I want."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 699.1999999999999, "end": 701.4, "text": " That I have a div."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 701.4, "end": 703.1999999999999, "text": " Whose class is."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 703.1999999999999, "end": 704.8, "text": " Selector."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 704.8, "end": 707.4, "text": " And I write I am selector."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 707.4, "end": 708.8, "text": " Okay, here I do one thing."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 708.8, "end": 709.8, "text": " I put its name 1."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 709.8, "end": 711.4, "text": " Don't get confused with the selector."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 711.4, "end": 712.5999999999999, "text": " ONE."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 712.5999999999999, "end": 713.5999999999999, "text": " So here I tell you about."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 713.5999999999999, "end": 715.4, "text": " First child pseudo selector."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 715.4, "end": 717.1999999999999, "text": " Which you may find a little tricky."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 717.1999999999999, "end": 717.5999999999999, "text": " Okay."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 717.5999999999999, "end": 718.8, "text": " And whatever I am telling."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 718.8, "end": 720.5999999999999, "text": " These are pseudo selectors of this category."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 720.5999999999999, "end": 721.5999999999999, "text": " So this pseudo selector."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 721.5999999999999, "end": 722.5999999999999, "text": " Of first child."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 722.5999999999999, "end": 723.8, "text": " If I write here."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 723.8, "end": 725.0, "text": " P first child."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 725.0, "end": 726.4, "text": " Background color aqua."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 726.4, "end": 727.4, "text": " Means."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 727.4, "end": 728.8, "text": " Wherever P is."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 728.8, "end": 730.8, "text": " First child of its parent."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 730.8, "end": 732.4, "text": " There its background color."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 732.4, "end": 733.0, "text": " Will become aqua."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 733.0, "end": 734.1999999999999, "text": " As you can see in this case."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 734.1999999999999, "end": 736.1999999999999, "text": " I have put a main tag here."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 736.1999999999999, "end": 737.4, "text": " And it is written here."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 737.4, "end": 738.4, "text": " P I am first."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 738.4, "end": 739.8, "text": " Then it is written P I am second."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 739.8, "end": 741.0, "text": " So here you can see."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 741.0, "end": 743.5999999999999, "text": " Wherever the first child of the main is P."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 743.5999999999999, "end": 744.4, "text": " Which is here."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 744.4, "end": 745.4, "text": " This P."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 745.4, "end": 747.4, "text": " Is the first child of its parent."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 747.4, "end": 749.0, "text": " So this class will apply in this."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 749.0, "end": 750.0, "text": " So see."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 750.0, "end": 751.0, "text": " Here."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 751.0, "end": 752.6, "text": " Its background is aqua."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 752.6, "end": 753.4, "text": " And its is not."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 753.4, "end": 754.6, "text": " But I will tell you again."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 754.6, "end": 756.4, "text": " That these things are used very rarely."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 756.4, "end": 757.8, "text": " When you do web development."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 757.8, "end": 758.8, "text": " So."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 758.8, "end": 759.8, "text": " You guys."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 759.8, "end": 762.4, "text": " Do more research about these pseudo classes."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 762.4, "end": 764.0, "text": " What I will do in the description."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 764.0, "end": 765.4, "text": " That I will put links."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 765.4, "end": 767.0, "text": " About these other things."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 767.0, "end": 769.0, "text": " So the additional reading material."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 769.0, "end": 771.0, "text": " If you want to see more pseudo classes."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 771.0, "end": 773.8, "text": " So you will get its link in the description."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 773.8, "end": 775.6, "text": " Maybe I will put it in the pinned comment."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 775.6, "end": 776.1999999999999, "text": " And if I forget."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 776.2, "end": 777.2, "text": " Then you please remind me."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 777.2, "end": 778.4000000000001, "text": " That you have not given the link."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 778.4000000000001, "end": 780.4000000000001, "text": " So I will give all those links to you."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 780.4000000000001, "end": 783.2, "text": " From there you can read about such selectors."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 783.2, "end": 785.2, "text": " But now we will move forward in this course."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 785.2, "end": 787.2, "text": " And we will read about the main things."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 787.2, "end": 789.6, "text": " Because we have to come on projects very soon."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 789.6, "end": 791.6, "text": " And we have to make good real world apps."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 791.6, "end": 793.2, "text": " And after that we have to do backend."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 793.2, "end": 794.2, "text": " We are also doing database."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 794.2, "end": 797.4000000000001, "text": " So we have to build a little pace here."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 797.4000000000001, "end": 799.4000000000001, "text": " I hope you guys are enjoying this course."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 799.4000000000001, "end": 801.4000000000001, "text": " If you have not bookmarked it yet."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 801.4000000000001, "end": 802.4000000000001, "text": " So do it now."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 802.4000000000001, "end": 804.0, "text": " Click bookmark here and save it."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 804.0, "end": 805.0, "text": " So access the playlist."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 805.0, "end": 806.0, "text": " Access the github code."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 806.0, "end": 807.0, "text": " Like the video."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 807.0, "end": 808.0, "text": " Share it."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 808.0, "end": 811.0, "text": " And naming the land of your village and uncle."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 811.0, "end": 813.0, "text": " Meet me in the next video."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 813.0, "end": 815.0, "text": " Thank you so much guys for watching this video."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 815.0, "end": 817.0, "text": " And I will see you next time."}, {"number": "17", "title": "CSS Selectors MasterClass", "start": 835.0, "end": 836.0, "text": " Bye."}], "text": " Guys, we talked about selectors in CSS and we said that selectors are used to select an element on which style is going to be applied. Now, what kind of elements can we apply style on and how can we select those elements? For example, element with an id, element with a class. We can target the element by its name. And we can also decide that if there is a particular type of element in a particular type of element, then only styling can be applied. I will explain the rules of styling in this video and will explain selectors to you. If you are enjoying this course, then do write Sigma patch OP in the comment section below. We have to maintain high energy throughout the course. I want to give you a heads up that this video is very important. This is a very important video of CSS. So increase your excitement. Let's go to the computer screen. Let's roll the intro. Alright guys, so I have come to my computer screen and the first thing I am going to do is to make a folder for video 17. And video 17 is one of the most important videos of CSS. Because if you understand how selectors work, then your work will be very easy. So I will make it here with the name video 17. I will make index.html here. And I am going to use the internal CSS here. I will not make it in the style sheet. So that you can see how I am doing whatever I am doing. And here I will do a lot of things. I will turn on Word Wrap, I will turn on Screencast Mode so that you can see whatever button I press. And I will write CSS selectors here. And I will make a div here. And I made a simple div here. I wrote I am a div here. Guys, if you haven't accessed it yet, then do play the playlist of Sigma Web Development. And the source code is getting updated. So you should not have any tension in that regard. Now what I am going to do here is a very simple thing. I will preview this first. And I want to make the background of this div red. Now you will say why do you want to make the background red? Because I want to know how much space this div is taking. That's why I want to make it red. So I want to make it red. So I will simply give the background here red. So I will put a style tag here. I will say that the background of the div should be red. Now this is our property, this is our value. I will tell you about other properties and values. But for now, you understand that this is a property and this is a value. So what I did here was an element selector. So I will write here Element Selector. And I will comment this here. So in CSS, comments are written like this. Here forward slash star and then star forward slash. Whatever we write in the middle of the star forward slash, those are comments in CSS. So I put a CSS comment that this is an element selector. You will see here that the background of this div has turned red. This was our element selector. A very basic selector. Now what are the drawbacks of the element selector that I made here? The drawbacks are that the moment I add another div here. So what will happen? The background of this div will also turn red. And it is possible that you do not want to make the background of this div red. So if you don't want to make the background of this div red, what will you do? Definitely you will use some other type of selector here. And you will want to use a specific selector. So I can say that do one thing, where the class is red, only that div should be red. So I made class is equal to red here. Now because I have made class is equal to red here. You will get to see here what? If I write here dot red. And after this if I make the background color red. Suppose I comment this out. I don't want all the divs to turn red. So I will show you that only this div will be red. As you can see here. So that's why I used class selector here. So this is our class selector. I will write here class selector. After this, the next selector I am going to tell you is ID selector. And you must have guessed it as soon as you heard ID selector. Let us say I want the ID with hashtag red. Or let's do one thing, let's make an ID with hashtag green. And if I write here background color green. So wherever I will give ID green, it will be green. Now you can see here that our I am another div. It has no color, no background color. But as soon as I give it ID green, I will show you. I will write here. I will give ID to this. Green. And you can see that I have given background color green in green name. So this is our ID selector. It was very simple. Yes, it is simple. Now I will tell you what is child selector. And the source code. This will work for your notes. So what is child selector? If I want paragraph in div to be blue. So I say the color of paragraph in div should be blue. And what should be the background color? Background color should be brown. Let's say I want this. If I put a paragraph in any div. I am a para inside div. So what will happen? This child selector will be applied. Because this is child of div. This paragraph is child of div. And I have said that if any paragraph of div is child. So what will happen? So its background will be brown. And color will be blue. As simple as that. Now I will show you one thing. If I wrap this whole thing in a div. Actually I will span this. I will not do div. I will put it in main or some other element. Let's say I use article tag. So now this paragraph is not in div. Now this paragraph is not in div. Now this paragraph is in article. So this property will not be applied. Now this property is not applied. Because this selector means. If this is directly in div. Direct child. Then this selector will be applied. Otherwise it will not be. Here this is not a direct child. Article is in div. Then P. But if I want. If paragraph is a descendant of any div. If this is a descendant of div. Then this property will be applied. Then what will I do? I have another way. I will simply. I will use descendant selector. And what is descendant selector? Descendant selector is. We write something like this. I will write div. Then I will write space. And then P. I am saying that P should be in div. No matter what it is. If P is in footer. Then it should be in div. In some form. It should be a descendant of div. So you see. Now this property is applied. But when I talk about child selector. Then child selector should be a direct child. I hope you are getting it. Now there is another one. Universal selector. If I want to give all elements. Margin 0. And padding 0. If I write P0. Then I can write padding 0. It means all elements have a margin 0. And padding 0. Earlier there was margin and padding. Which was given by default. But now this margin and padding is over. Like you have seen. I hope you have understood this. There are many types of selectors. But these are the most used selectors. Now I will tell you about. More selectors in the coming videos. But these are the ones. I don't want to confuse you. And you can't learn. These main selectors. So I want you to pay attention. This is the most important. 99% of the websites are made. Through this. So let's focus on this. I hope you have understood. And you have understood it. There is one more important selector. I will tell you that. Pseudo selectors. What is this pseudo selector? I have a link. I will write it here. Universal selector. Universal selector. Universal selector. What is this? Why is the comment not working? Now I will write. Pseudo. Pseudo. Yes I know. Don't write in the comment. Pseudo is not Pseudo. It is pneumonia. Why is it silent? Tell me in the comment. If it was silent, it would have been like this. Tell me in the comment. Who has the knowledge. But now I will share my knowledge with you. And that is pseudo selectors. Now assume I have a link. I have a link. LINK. Now I will write. https://www.google.com And I will write. Go to Google. And It is very good. You will go to Google and ask what is new in this. I want the color to be. Let us say white. No I won't keep white. I want it to be yellow. I want it to be visited. I want it to be visited. I want it to be visited. I want the color to be yellow. I will make the color yellow. Will the color be yellow? Yes. Anchor text if I want. After visiting. I can use the pseudo selector. So here you can see. It's change color. Then if you use a colon link. That is the link that. Is not visited. If you want the color to be green. I will put a link. What will be the color. I will do this way. Go to Facebook. Let's capitalize Google's G as well. So will its color be green? No, it won't be green. Maybe I have already visited Facebook. Sorry, I have visited Google. So I have to write Facebook here as well. Okay. So I won't be able to write Facebook. What will happen if I write Facebook 2? Yes, if I write Facebook 2, see this, I haven't visited it. Facebook2.com I have actually visited Facebook.com. If you remember, in the initial few lectures. So that's why it is showing like this. Now I will tell you about two more selectors. Links related. One is A-active. Okay. And I tell you, if you type any pseudo selector. It shows you the image in the suggestion. Now if I want. The background color of A-active to be red. So as soon as I click on any link. You see its background color is red. So active means. When you are clicking, then. Okay, so see here. Google.com page is coming. And as soon as I click, its background will be red. Okay. Yes, I know that ideally you will not want to use. Background color red. But that was just an example. To show you how it happens. The easiest thing for me is. That I make the background color red. Because you will know this directly. Okay. Now after this. What else do we have besides anchor tag? Some pseudo selectors. The answer is yes. Definitely. One is hover. Okay, if I want. That on div. Sorry, on anchor tag. Anyone can hover. Okay. And I want. That its background color becomes red. Or the background color becomes yellow. I make its background color yellow. So if I hover. Then you can see here. That this is. Here its background color. Becomes yellow. As soon as I hover. I wrote here a hover. And background color yellow. So these were some pseudo selectors. Now I will tell you one more pseudo selector. And that will be. If I want. That I have a div. Whose class is. Selector. And I write I am selector. Okay, here I do one thing. I put its name 1. Don't get confused with the selector. ONE. So here I tell you about. First child pseudo selector. Which you may find a little tricky. Okay. And whatever I am telling. These are pseudo selectors of this category. So this pseudo selector. Of first child. If I write here. P first child. Background color aqua. Means. Wherever P is. First child of its parent. There its background color. Will become aqua. As you can see in this case. I have put a main tag here. And it is written here. P I am first. Then it is written P I am second. So here you can see. Wherever the first child of the main is P. Which is here. This P. Is the first child of its parent. So this class will apply in this. So see. Here. Its background is aqua. And its is not. But I will tell you again. That these things are used very rarely. When you do web development. So. You guys. Do more research about these pseudo classes. What I will do in the description. That I will put links. About these other things. So the additional reading material. If you want to see more pseudo classes. So you will get its link in the description. Maybe I will put it in the pinned comment. And if I forget. Then you please remind me. That you have not given the link. So I will give all those links to you. From there you can read about such selectors. But now we will move forward in this course. And we will read about the main things. Because we have to come on projects very soon. And we have to make good real world apps. And after that we have to do backend. We are also doing database. So we have to build a little pace here. I hope you guys are enjoying this course. If you have not bookmarked it yet. So do it now. Click bookmark here and save it. So access the playlist. Access the github code. Like the video. Share it. And naming the land of your village and uncle. Meet me in the next video. Thank you so much guys for watching this video. And I will see you next time. Bye."}
+{
+  "chunks": [
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 0.0,
+      "end": 27.2,
+      "text": "Guys, we talked about selectors in CSS and we said that selectors are used to select an element on which style is going to be applied. Now, what kind of elements can we apply style on and how can we select those elements? For example, element with an id, element with a class. We can target the element by its name. And we can also decide that if there is a particular type of element in a particular type of element, then only styling can be applied."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 27.2,
+      "end": 44.0,
+      "text": "I will explain the rules of styling in this video and will explain selectors to you. If you are enjoying this course, then do write Sigma patch OP in the comment section below. We have to maintain high energy throughout the course. I want to give you a heads up that this video is very important. This is a very important video of CSS."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 44.0,
+      "end": 67.7,
+      "text": "So increase your excitement. Let's go to the computer screen. Let's roll the intro. Alright guys, so I have come to my computer screen and the first thing I am going to do is to make a folder for video 17. And video 17 is one of the most important videos of CSS."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 67.7,
+      "end": 82.8,
+      "text": "Because if you understand how selectors work, then your work will be very easy. So I will make it here with the name video 17. I will make index.html here. And I am going to use the internal CSS here. I will not make it in the style sheet."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 82.8,
+      "end": 98.80000000000001,
+      "text": "So that you can see how I am doing whatever I am doing. And here I will do a lot of things. I will turn on Word Wrap, I will turn on Screencast Mode so that you can see whatever button I press. And I will write CSS selectors here. And I will make a div here."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 98.80000000000001,
+      "end": 111.89999999999999,
+      "text": "And I made a simple div here. I wrote I am a div here. Guys, if you haven't accessed it yet, then do play the playlist of Sigma Web Development. And the source code is getting updated. So you should not have any tension in that regard."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 111.89999999999999,
+      "end": 124.9,
+      "text": "Now what I am going to do here is a very simple thing. I will preview this first. And I want to make the background of this div red. Now you will say why do you want to make the background red? Because I want to know how much space this div is taking."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 124.9,
+      "end": 142.0,
+      "text": "That's why I want to make it red. So I want to make it red. So I will simply give the background here red. So I will put a style tag here. I will say that the background of the div should be red."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 142.0,
+      "end": 158.0,
+      "text": "Now this is our property, this is our value. I will tell you about other properties and values. But for now, you understand that this is a property and this is a value. So what I did here was an element selector. So I will write here Element Selector."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 158.0,
+      "end": 169.1,
+      "text": "And I will comment this here. So in CSS, comments are written like this. Here forward slash star and then star forward slash. Whatever we write in the middle of the star forward slash, those are comments in CSS. So I put a CSS comment that this is an element selector."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 169.1,
+      "end": 182.1,
+      "text": "You will see here that the background of this div has turned red. This was our element selector. A very basic selector. Now what are the drawbacks of the element selector that I made here? The drawbacks are that the moment I add another div here."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 184.1,
+      "end": 201.2,
+      "text": "So what will happen? The background of this div will also turn red. And it is possible that you do not want to make the background of this div red. So if you don't want to make the background of this div red, what will you do? Definitely you will use some other type of selector here. And you will want to use a specific selector."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 201.2,
+      "end": 216.29999999999998,
+      "text": "So I can say that do one thing, where the class is red, only that div should be red. So I made class is equal to red here. Now because I have made class is equal to red here. You will get to see here what? If I write here dot red."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 216.29999999999998,
+      "end": 229.29999999999998,
+      "text": "And after this if I make the background color red. Suppose I comment this out. I don't want all the divs to turn red. So I will show you that only this div will be red. As you can see here."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 229.29999999999998,
+      "end": 245.4,
+      "text": "So that's why I used class selector here. So this is our class selector. I will write here class selector. After this, the next selector I am going to tell you is ID selector. And you must have guessed it as soon as you heard ID selector."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 245.4,
+      "end": 262.40000000000003,
+      "text": "Let us say I want the ID with hashtag red. Or let's do one thing, let's make an ID with hashtag green. And if I write here background color green. So wherever I will give ID green, it will be green. Now you can see here that our I am another div."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 262.40000000000003,
+      "end": 272.5,
+      "text": "It has no color, no background color. But as soon as I give it ID green, I will show you. I will write here. I will give ID to this. Green."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 272.5,
+      "end": 286.5,
+      "text": "And you can see that I have given background color green in green name. So this is our ID selector. It was very simple. Yes, it is simple. Now I will tell you what is child selector."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 286.5,
+      "end": 301.6,
+      "text": "And the source code. This will work for your notes. So what is child selector? If I want paragraph in div to be blue. So I say the color of paragraph in div should be blue."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 301.6,
+      "end": 314.6,
+      "text": "And what should be the background color? Background color should be brown. Let's say I want this. If I put a paragraph in any div. I am a para inside div."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 314.6,
+      "end": 326.70000000000005,
+      "text": "So what will happen? This child selector will be applied. Because this is child of div. This paragraph is child of div. And I have said that if any paragraph of div is child."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 326.70000000000005,
+      "end": 336.70000000000005,
+      "text": "So what will happen? So its background will be brown. And color will be blue. As simple as that. Now I will show you one thing."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 336.70000000000005,
+      "end": 348.70000000000005,
+      "text": "If I wrap this whole thing in a div. Actually I will span this. I will not do div. I will put it in main or some other element. Let's say I use article tag."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 348.70000000000005,
+      "end": 358.8,
+      "text": "So now this paragraph is not in div. Now this paragraph is not in div. Now this paragraph is in article. So this property will not be applied. Now this property is not applied."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 358.8,
+      "end": 368.8,
+      "text": "Because this selector means. If this is directly in div. Direct child. Then this selector will be applied. Otherwise it will not be."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 368.8,
+      "end": 378.8,
+      "text": "Here this is not a direct child. Article is in div. Then P. But if I want. If paragraph is a descendant of any div."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 378.90000000000003,
+      "end": 388.90000000000003,
+      "text": "If this is a descendant of div. Then this property will be applied. Then what will I do? I have another way. I will simply."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 388.90000000000003,
+      "end": 398.90000000000003,
+      "text": "I will use descendant selector. And what is descendant selector? Descendant selector is. We write something like this. I will write div."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 398.90000000000003,
+      "end": 409.0,
+      "text": "Then I will write space. And then P. I am saying that P should be in div. No matter what it is. If P is in footer."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 409.0,
+      "end": 419.0,
+      "text": "Then it should be in div. In some form. It should be a descendant of div. So you see. Now this property is applied."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 419.0,
+      "end": 429.0,
+      "text": "But when I talk about child selector. Then child selector should be a direct child. I hope you are getting it. Now there is another one. Universal selector."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 429.0,
+      "end": 439.1,
+      "text": "If I want to give all elements. Margin 0. And padding 0. If I write P0. Then I can write padding 0."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 439.1,
+      "end": 449.1,
+      "text": "It means all elements have a margin 0. And padding 0. Earlier there was margin and padding. Which was given by default. But now this margin and padding is over."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 449.1,
+      "end": 459.1,
+      "text": "Like you have seen. I hope you have understood this. There are many types of selectors. But these are the most used selectors. Now I will tell you about."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 459.1,
+      "end": 469.20000000000005,
+      "text": "More selectors in the coming videos. But these are the ones. I don't want to confuse you. And you can't learn. These main selectors."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 469.20000000000005,
+      "end": 479.20000000000005,
+      "text": "So I want you to pay attention. This is the most important. 99% of the websites are made. Through this. So let's focus on this."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 479.20000000000005,
+      "end": 489.20000000000005,
+      "text": "I hope you have understood. And you have understood it. There is one more important selector. I will tell you that. Pseudo selectors."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 489.20000000000005,
+      "end": 499.3,
+      "text": "What is this pseudo selector? I have a link. I will write it here. Universal selector. Universal selector."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 501.3,
+      "end": 511.3,
+      "text": "Universal selector. What is this? Why is the comment not working? Now I will write. Pseudo."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 511.3,
+      "end": 521.4,
+      "text": "Pseudo. Yes I know. Don't write in the comment. Pseudo is not Pseudo. It is pneumonia."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 521.4,
+      "end": 531.4,
+      "text": "Why is it silent? Tell me in the comment. If it was silent, it would have been like this. Tell me in the comment. Who has the knowledge."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 531.4,
+      "end": 541.4,
+      "text": "But now I will share my knowledge with you. And that is pseudo selectors. Now assume I have a link. I have a link. LINK."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 541.4,
+      "end": 551.5,
+      "text": "Now I will write. https://www.google.com And I will write. Go to Google. And"
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 551.5,
+      "end": 561.5,
+      "text": "It is very good. You will go to Google and ask what is new in this. I want the color to be. Let us say white. No I won't keep white."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 561.5,
+      "end": 571.5,
+      "text": "I want it to be yellow. I want it to be visited. I want it to be visited. I want it to be visited. I want the color to be yellow."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 571.5,
+      "end": 581.6,
+      "text": "I will make the color yellow. Will the color be yellow? Yes. Anchor text if I want. After visiting."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 581.6,
+      "end": 591.6,
+      "text": "I can use the pseudo selector. So here you can see. It's change color. Then if you use a colon link. That is the link that."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 591.6,
+      "end": 601.6,
+      "text": "Is not visited. If you want the color to be green. I will put a link. What will be the color. I will do this way."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 601.6,
+      "end": 611.0,
+      "text": "Go to Facebook. Let's capitalize Google's G as well. So will its color be green? No, it won't be green. Maybe I have already visited Facebook."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 611.0,
+      "end": 619.2,
+      "text": "Sorry, I have visited Google. So I have to write Facebook here as well. Okay. So I won't be able to write Facebook. What will happen if I write Facebook 2?"
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 619.2,
+      "end": 628.0,
+      "text": "Yes, if I write Facebook 2, see this, I haven't visited it. Facebook2.com I have actually visited Facebook.com. If you remember, in the initial few lectures. So that's why it is showing like this."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 628.0,
+      "end": 636.4,
+      "text": "Now I will tell you about two more selectors. Links related. One is A-active. Okay. And I tell you, if you type any pseudo selector."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 636.4,
+      "end": 644.5999999999999,
+      "text": "It shows you the image in the suggestion. Now if I want. The background color of A-active to be red. So as soon as I click on any link. You see its background color is red."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 644.5999999999999,
+      "end": 651.4,
+      "text": "So active means. When you are clicking, then. Okay, so see here. Google.com page is coming. And as soon as I click, its background will be red."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 651.4,
+      "end": 658.8,
+      "text": "Okay. Yes, I know that ideally you will not want to use. Background color red. But that was just an example. To show you how it happens."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 658.8,
+      "end": 665.0,
+      "text": "The easiest thing for me is. That I make the background color red. Because you will know this directly. Okay. Now after this."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 665.0,
+      "end": 672.0,
+      "text": "What else do we have besides anchor tag? Some pseudo selectors. The answer is yes. Definitely. One is hover."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 672.0,
+      "end": 677.2,
+      "text": "Okay, if I want. That on div. Sorry, on anchor tag. Anyone can hover. Okay."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 677.2,
+      "end": 684.6,
+      "text": "And I want. That its background color becomes red. Or the background color becomes yellow. I make its background color yellow. So if I hover."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 684.6,
+      "end": 689.8000000000001,
+      "text": "Then you can see here. That this is. Here its background color. Becomes yellow. As soon as I hover."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 690.0,
+      "end": 698.0,
+      "text": "I wrote here a hover. And background color yellow. So these were some pseudo selectors. Now I will tell you one more pseudo selector. And that will be."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 698.0,
+      "end": 707.4,
+      "text": "If I want. That I have a div. Whose class is. Selector. And I write I am selector."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 707.4,
+      "end": 713.5999999999999,
+      "text": "Okay, here I do one thing. I put its name 1. Don't get confused with the selector. ONE. So here I tell you about."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 713.5999999999999,
+      "end": 720.5999999999999,
+      "text": "First child pseudo selector. Which you may find a little tricky. Okay. And whatever I am telling. These are pseudo selectors of this category."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 720.5999999999999,
+      "end": 726.4,
+      "text": "So this pseudo selector. Of first child. If I write here. P first child. Background color aqua."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 726.4,
+      "end": 733.0,
+      "text": "Means. Wherever P is. First child of its parent. There its background color. Will become aqua."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 733.0,
+      "end": 739.8,
+      "text": "As you can see in this case. I have put a main tag here. And it is written here. P I am first. Then it is written P I am second."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 739.8,
+      "end": 747.4,
+      "text": "So here you can see. Wherever the first child of the main is P. Which is here. This P. Is the first child of its parent."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 747.4,
+      "end": 753.4,
+      "text": "So this class will apply in this. So see. Here. Its background is aqua. And its is not."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 753.4,
+      "end": 759.8,
+      "text": "But I will tell you again. That these things are used very rarely. When you do web development. So. You guys."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 759.8,
+      "end": 769.0,
+      "text": "Do more research about these pseudo classes. What I will do in the description. That I will put links. About these other things. So the additional reading material."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 769.0,
+      "end": 777.2,
+      "text": "If you want to see more pseudo classes. So you will get its link in the description. Maybe I will put it in the pinned comment. And if I forget. Then you please remind me."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 777.2,
+      "end": 787.2,
+      "text": "That you have not given the link. So I will give all those links to you. From there you can read about such selectors. But now we will move forward in this course. And we will read about the main things."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 787.2,
+      "end": 797.4000000000001,
+      "text": "Because we have to come on projects very soon. And we have to make good real world apps. And after that we have to do backend. We are also doing database. So we have to build a little pace here."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 797.4000000000001,
+      "end": 805.0,
+      "text": "I hope you guys are enjoying this course. If you have not bookmarked it yet. So do it now. Click bookmark here and save it. So access the playlist."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 805.0,
+      "end": 813.0,
+      "text": "Access the github code. Like the video. Share it. And naming the land of your village and uncle. Meet me in the next video."
+    },
+    {
+      "number": "17",
+      "title": "CSS Selectors MasterClass",
+      "start": 813.0,
+      "end": 836.0,
+      "text": "Thank you so much guys for watching this video. And I will see you next time. Bye."
+    }
+  ],
+  "text": " Guys, we talked about selectors in CSS and we said that selectors are used to select an element on which style is going to be applied. Now, what kind of elements can we apply style on and how can we select those elements? For example, element with an id, element with a class. We can target the element by its name. And we can also decide that if there is a particular type of element in a particular type of element, then only styling can be applied. I will explain the rules of styling in this video and will explain selectors to you. If you are enjoying this course, then do write Sigma patch OP in the comment section below. We have to maintain high energy throughout the course. I want to give you a heads up that this video is very important. This is a very important video of CSS. So increase your excitement. Let's go to the computer screen. Let's roll the intro. Alright guys, so I have come to my computer screen and the first thing I am going to do is to make a folder for video 17. And video 17 is one of the most important videos of CSS. Because if you understand how selectors work, then your work will be very easy. So I will make it here with the name video 17. I will make index.html here. And I am going to use the internal CSS here. I will not make it in the style sheet. So that you can see how I am doing whatever I am doing. And here I will do a lot of things. I will turn on Word Wrap, I will turn on Screencast Mode so that you can see whatever button I press. And I will write CSS selectors here. And I will make a div here. And I made a simple div here. I wrote I am a div here. Guys, if you haven't accessed it yet, then do play the playlist of Sigma Web Development. And the source code is getting updated. So you should not have any tension in that regard. Now what I am going to do here is a very simple thing. I will preview this first. And I want to make the background of this div red. Now you will say why do you want to make the background red? Because I want to know how much space this div is taking. That's why I want to make it red. So I want to make it red. So I will simply give the background here red. So I will put a style tag here. I will say that the background of the div should be red. Now this is our property, this is our value. I will tell you about other properties and values. But for now, you understand that this is a property and this is a value. So what I did here was an element selector. So I will write here Element Selector. And I will comment this here. So in CSS, comments are written like this. Here forward slash star and then star forward slash. Whatever we write in the middle of the star forward slash, those are comments in CSS. So I put a CSS comment that this is an element selector. You will see here that the background of this div has turned red. This was our element selector. A very basic selector. Now what are the drawbacks of the element selector that I made here? The drawbacks are that the moment I add another div here. So what will happen? The background of this div will also turn red. And it is possible that you do not want to make the background of this div red. So if you don't want to make the background of this div red, what will you do? Definitely you will use some other type of selector here. And you will want to use a specific selector. So I can say that do one thing, where the class is red, only that div should be red. So I made class is equal to red here. Now because I have made class is equal to red here. You will get to see here what? If I write here dot red. And after this if I make the background color red. Suppose I comment this out. I don't want all the divs to turn red. So I will show you that only this div will be red. As you can see here. So that's why I used class selector here. So this is our class selector. I will write here class selector. After this, the next selector I am going to tell you is ID selector. And you must have guessed it as soon as you heard ID selector. Let us say I want the ID with hashtag red. Or let's do one thing, let's make an ID with hashtag green. And if I write here background color green. So wherever I will give ID green, it will be green. Now you can see here that our I am another div. It has no color, no background color. But as soon as I give it ID green, I will show you. I will write here. I will give ID to this. Green. And you can see that I have given background color green in green name. So this is our ID selector. It was very simple. Yes, it is simple. Now I will tell you what is child selector. And the source code. This will work for your notes. So what is child selector? If I want paragraph in div to be blue. So I say the color of paragraph in div should be blue. And what should be the background color? Background color should be brown. Let's say I want this. If I put a paragraph in any div. I am a para inside div. So what will happen? This child selector will be applied. Because this is child of div. This paragraph is child of div. And I have said that if any paragraph of div is child. So what will happen? So its background will be brown. And color will be blue. As simple as that. Now I will show you one thing. If I wrap this whole thing in a div. Actually I will span this. I will not do div. I will put it in main or some other element. Let's say I use article tag. So now this paragraph is not in div. Now this paragraph is not in div. Now this paragraph is in article. So this property will not be applied. Now this property is not applied. Because this selector means. If this is directly in div. Direct child. Then this selector will be applied. Otherwise it will not be. Here this is not a direct child. Article is in div. Then P. But if I want. If paragraph is a descendant of any div. If this is a descendant of div. Then this property will be applied. Then what will I do? I have another way. I will simply. I will use descendant selector. And what is descendant selector? Descendant selector is. We write something like this. I will write div. Then I will write space. And then P. I am saying that P should be in div. No matter what it is. If P is in footer. Then it should be in div. In some form. It should be a descendant of div. So you see. Now this property is applied. But when I talk about child selector. Then child selector should be a direct child. I hope you are getting it. Now there is another one. Universal selector. If I want to give all elements. Margin 0. And padding 0. If I write P0. Then I can write padding 0. It means all elements have a margin 0. And padding 0. Earlier there was margin and padding. Which was given by default. But now this margin and padding is over. Like you have seen. I hope you have understood this. There are many types of selectors. But these are the most used selectors. Now I will tell you about. More selectors in the coming videos. But these are the ones. I don't want to confuse you. And you can't learn. These main selectors. So I want you to pay attention. This is the most important. 99% of the websites are made. Through this. So let's focus on this. I hope you have understood. And you have understood it. There is one more important selector. I will tell you that. Pseudo selectors. What is this pseudo selector? I have a link. I will write it here. Universal selector. Universal selector. Universal selector. What is this? Why is the comment not working? Now I will write. Pseudo. Pseudo. Yes I know. Don't write in the comment. Pseudo is not Pseudo. It is pneumonia. Why is it silent? Tell me in the comment. If it was silent, it would have been like this. Tell me in the comment. Who has the knowledge. But now I will share my knowledge with you. And that is pseudo selectors. Now assume I have a link. I have a link. LINK. Now I will write. https://www.google.com And I will write. Go to Google. And It is very good. You will go to Google and ask what is new in this. I want the color to be. Let us say white. No I won't keep white. I want it to be yellow. I want it to be visited. I want it to be visited. I want it to be visited. I want the color to be yellow. I will make the color yellow. Will the color be yellow? Yes. Anchor text if I want. After visiting. I can use the pseudo selector. So here you can see. It's change color. Then if you use a colon link. That is the link that. Is not visited. If you want the color to be green. I will put a link. What will be the color. I will do this way. Go to Facebook. Let's capitalize Google's G as well. So will its color be green? No, it won't be green. Maybe I have already visited Facebook. Sorry, I have visited Google. So I have to write Facebook here as well. Okay. So I won't be able to write Facebook. What will happen if I write Facebook 2? Yes, if I write Facebook 2, see this, I haven't visited it. Facebook2.com I have actually visited Facebook.com. If you remember, in the initial few lectures. So that's why it is showing like this. Now I will tell you about two more selectors. Links related. One is A-active. Okay. And I tell you, if you type any pseudo selector. It shows you the image in the suggestion. Now if I want. The background color of A-active to be red. So as soon as I click on any link. You see its background color is red. So active means. When you are clicking, then. Okay, so see here. Google.com page is coming. And as soon as I click, its background will be red. Okay. Yes, I know that ideally you will not want to use. Background color red. But that was just an example. To show you how it happens. The easiest thing for me is. That I make the background color red. Because you will know this directly. Okay. Now after this. What else do we have besides anchor tag? Some pseudo selectors. The answer is yes. Definitely. One is hover. Okay, if I want. That on div. Sorry, on anchor tag. Anyone can hover. Okay. And I want. That its background color becomes red. Or the background color becomes yellow. I make its background color yellow. So if I hover. Then you can see here. That this is. Here its background color. Becomes yellow. As soon as I hover. I wrote here a hover. And background color yellow. So these were some pseudo selectors. Now I will tell you one more pseudo selector. And that will be. If I want. That I have a div. Whose class is. Selector. And I write I am selector. Okay, here I do one thing. I put its name 1. Don't get confused with the selector. ONE. So here I tell you about. First child pseudo selector. Which you may find a little tricky. Okay. And whatever I am telling. These are pseudo selectors of this category. So this pseudo selector. Of first child. If I write here. P first child. Background color aqua. Means. Wherever P is. First child of its parent. There its background color. Will become aqua. As you can see in this case. I have put a main tag here. And it is written here. P I am first. Then it is written P I am second. So here you can see. Wherever the first child of the main is P. Which is here. This P. Is the first child of its parent. So this class will apply in this. So see. Here. Its background is aqua. And its is not. But I will tell you again. That these things are used very rarely. When you do web development. So. You guys. Do more research about these pseudo classes. What I will do in the description. That I will put links. About these other things. So the additional reading material. If you want to see more pseudo classes. So you will get its link in the description. Maybe I will put it in the pinned comment. And if I forget. Then you please remind me. That you have not given the link. So I will give all those links to you. From there you can read about such selectors. But now we will move forward in this course. And we will read about the main things. Because we have to come on projects very soon. And we have to make good real world apps. And after that we have to do backend. We are also doing database. So we have to build a little pace here. I hope you guys are enjoying this course. If you have not bookmarked it yet. So do it now. Click bookmark here and save it. So access the playlist. Access the github code. Like the video. Share it. And naming the land of your village and uncle. Meet me in the next video. Thank you so much guys for watching this video. And I will see you next time. Bye."
+}

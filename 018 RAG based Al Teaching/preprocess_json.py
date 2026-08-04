@@ -20,7 +20,6 @@ def create_embedding(text_list, batch_size=50):
 
 
 
-
 jsons = os.listdir("jsons")  # List all the jsons 
 my_dicts = []
 chunk_id = 0
